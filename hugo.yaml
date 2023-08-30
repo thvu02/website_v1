@@ -2,6 +2,7 @@ baseURL: "https://trunghvu.com/"
 languageCode: "en-us"
 title: "Personal Website"
 theme: hugo-profile
+publishDir: "docs"
 
 outputs:
   home:
