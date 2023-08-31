@@ -1,6 +1,6 @@
 baseURL: "https://trunghvu.com/"
 languageCode: "en-us"
-title: "Personal Website"
+title: "Trung Vu"
 theme: hugo-profile
 publishDir: "docs"
 
@@ -57,7 +57,7 @@ params:
   title: "Hugo Profile"
   description: Text about my cool site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  favicon: "/images/rank.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -120,8 +120,8 @@ params:
     enable: true
     intro: "Howdy, my name is"
     title: "Trung"
-    subtitle: "the website is still in progress, but it'll get done soon!"
-    content: "I'm a UCLA computer science student that codes, bowls, plays Valorant, dances, and tries to gym."
+    subtitle: "he/him"
+    # content: ""
     image: /images/snow.JPG
     bottomImage:
       enable: true
@@ -138,9 +138,11 @@ params:
           url: https://github.com/trungvu08
         - icon: fab fa-linkedin
           url: https://linkedin.com/in/trungvu08
+        - icon: far fa-envelope
+          url: "mailto:trungvu08@ucla.edu"
       # customIcons:
       #   - icon: /fav.png
-      #     url: "https://example.com"
+      #     url: "  "
 
   # About
   about:
@@ -149,16 +151,20 @@ params:
     # image: "/images/me.png"
     image: "images/professionalMe.JPG"
     content: |-
-      I am a 4th year Computer Science and Engineering undergrad at UCLA with machine learning, backend development, data science, 
-      and cybersecurity experience through three summers of internship. I have knowledge in fields related to IoT, am comfortable working with software/hardware, 
-      and have strong skills in software engineering and development using Python and C++. I am passionate about machine learning, backend development, data science, and cybersecurity, 
-      and am looking for full-time opportunities.
+      I am a 4th year undergraduate Computer Science and Engineering student in the [<u>Henry Samueli School of Engineering</u>](https://linkedin.com/in/trungvu08) at 
+      [<u>UCLA</u>](https://www.ucla.edu/). I love computer science for its unlimited application potential and hope to leverage my skills to help forge a more equitable world.
+      In my last year at UCLA, I hope to use my positions to make CS at UCLA more equitable and bring more companies to UCLA so our CS students have access to more opportunities.
 
-      Currently, I'm working as a Year-Round Cybersecurity R&D Intern for Sandia National Laboratories, an Undergraduate Researcher for the Scalable Analytics Institute Lab at UCLA, and a 
-      Group Tutor for Engineering 96i: Internet of Things. I also serve as the External Vice President for Upsilon Pi Epsilon, the computer honors society at UCLA, and am involved in the 
-      Southeast Asian space at UCLA.
+      Currently, I am...
+      - Interning at [<u>Sandia National Laboratories</u>](https://www.sandia.gov/)
+      - Researching with [<u>Scalable Analytics Institute</u>](https://scai.cs.ucla.edu/)
+      - Helping teach ENGR 96i in the Fall
+      - External Vice President for [<u>Upsilon Pi Epsilon</u>](https://upe.seas.ucla.edu/)
+      - Involved in the Southeast Asian space
 
-      In my free time, I enjoy hanging out with friends, trying food from different cultures, bowling, playing Valorant, learning to dance, and watching cooking videos.
+      In my free time, I learn new languages/frameworks by working on various side projects (like this website) and dive deeper into Internet of Things.
+      
+      When I need a break from academics, I enjoy spending time with friends, trying food from different cultures, bowling, playing Valorant, learning to dance, and watching cooking videos.
       
     # skills:
     #   enable: true
@@ -174,16 +180,19 @@ params:
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
+    title: "Experience (in order of relevance)"
     items:
       - job: "Cybersecurity R&D"
-        company: "Sandia National Labs"
+        company: "Sandia National Laboratories"
         companyUrl: "https://www.sandia.gov/"
         date: "Jun 2023 - present"
         # featuredLink:
         #   enable: true
         #   name: "View the project"
         #   url: "https://example.com"
+        info:
+          enable: false
+          content: "Albuquerque, NM --> remote"
         content: "I am currently working as a cybersecurity R&D intern at [Sandia National Laboratories](https://www.sandia.gov/)
         where I work towards automating the generation of summary reports and activity alerts for Sandia's OT network. I was in Albuquerque, NM
         for this position, but now I am working remotely."
@@ -191,52 +200,118 @@ params:
       - job: "Data Scientist"
         company: "NASA JPL"
         companyUrl: "https://www.jpl.nasa.gov/"
-        date: "Sep 2020 - Dec 2021"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
-        info:
-          enable: true
-          content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "Junior Software Developer"
-        company: "Apple"
-        companyUrl: "https://example.com"
-        date: "Jan 2020 - Aug 2020"
+        date: "Jun 2022 - Sep 2022"
+        # featuredLink:
+        #   enable: true
+        #   url: "https://example.com"
         info:
           enable: false
+          content: "Pasadena, CA"
+        content: |
+          Researched global and regional surface temperature anomaly trends using CMIP6 and Berkeley Earth data. 
+
+      - job: "Software Engineer"
+        company: "SISYPHUS Global Systems"
+        companyUrl: ""
+        date: ""
+        info:
+          enable: false
+          content: ""
         featuredLink:
           enable: true
-          url: "https://example.com"
+          url: ""
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
-
-      - job: "UI/UX Designer"
-        company: "Netflix"
-        companyUrl: "https://example.com"
-        date: "June 2017 - Nov 2019"
+          asd
+      - job: "Researcher"
+        company: "Scalable Analytics Institute"
+        companyUrl: ""
+        date: ""
+        info:
+          enable: false
+          content: ""
         featuredLink:
           enable: true
-          url: "https://example.com"
+          url: ""
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
+          asd
 
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+      - job: "Group Tutor"
+        company: "UCLA Samueli School of Engineering"
+        companyUrl: ""
+        date: ""
+        info:
+          enable: false
+          content: ""
+        featuredLink:
+          enable: true
+          url: ""
+        content: |
+          asd
 
-      - job: "Product Designer"
-        company: "Google"
-        companyUrl: "https://example.com"
-        date: "Feb 2016 - Mar 2017"
-        content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+      - job: "External Vice President"
+        company: "Upsilon Pi Epsilon"
+        companyUrl: ""
+        date: ""
+        info:
+          enable: false
+          content: ""
+        featuredLink:
+          enable: true
+          url: ""
+        content: |
+          asd
+
+      - job: "Tech Innovator"
+        company: "VentureWell"
+        companyUrl: ""
+        date: ""
+        info:
+          enable: false
+          content: ""
+        featuredLink:
+          enable: true
+          url: ""
+        content: |
+          asd
+
+      - job: "Instructor Aide"
+        company: "UCLA Extension"
+        companyUrl: ""
+        date: ""
+        info:
+          enable: false
+          content: ""
+        featuredLink:
+          enable: true
+          url: ""
+        content: |
+          asd
+
+      - job: "Workshop Facilitator"
+        company: "Vietnamese Student Union"
+        companyUrl: ""
+        date: ""
+        info:
+          enable: false
+          content: ""
+        featuredLink:
+          enable: true
+          url: ""
+        content: |
+          asd
+
+      # - job: "title"
+      #   company: "title"
+      #   companyUrl: ""
+      #   date: ""
+      #   info:
+      #     enable: false
+      #     content: ""
+      #   featuredLink:
+      #     enable: true
+      #     url: ""
+      #   content: |
+      #     asd
 
   # Education
   education:
@@ -279,80 +354,118 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievment.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievment.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievment.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: MIT Climate & Energy Prize
+        content: Accepted into startup competition
+        image: /images/mit_school.png
 
+      - title: 2021 Call for Code Global Challenge
+        content: One of five regional finalist in North America
+        url: "https://developer.ibm.com/callforcode/solutions/2021-solutions/#regionalfinalists"
+        image: /images/ibm.png/
+
+      - title: 2021 Verizon & CGI U Social Innovation Challenge
+        content: Beat 12 startups in startup accelerator
+        url: "https://venturewell.org/pitch-competitions-2/"
+        image: /images/venturewell.ico/
+
+      - title: IBM AI Spot Challenge
+        content: 2nd place
+        url: ""
+        image: /images/ibm.png/
+
+      - title: IBM Code Engine Challenge
+        content: 2nd place
+        url: ""
+        image: /images/ibm.png/
+
+      - title: Howard Hackathon for Environmental Justice
+        content: 2nd place
+        image: /images/ibm.png/
+
+      # - title: 
+      #   content:  
+      #   url: ""
+      #   image: 
+
+      
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Personal Website
+        content: My own website created with Hugo using a template and hosted on GitHub pages.
+        image: 
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: "https://trunghvu.com/"
         badges:
           - "Hugo"
           - "Bootstrap"
-          - "Javascript"
+          - "JavaScript"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: "https://github.com/trungvu08/trungvu08.github.io"
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: Uniqueness Test
+        content: React project hosted on GitHub pages that is a family-friendly version the popular Rice Purity test.
+        image: 
         featured:
           name: Demo
-          link: https://django-converter.herokuapp.com
+          link: "https://trunghvu.com/uniquenesstest/"
         badges:
-          - "Django"
-          - "Bootstrap"
+          - "React"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/trungvu08/uniquenesstest
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+      - title: Digital Audio Visualizer
+        content: |-
+          System that visualizes frequencies of audio signals on VGA monitor with SystemVerilog and an FPGA. I also recreated 
+          the Flappy Bird video game where users control bird movement using FPGA.
+        image: 
+        badges:
+          - "SystemVerilog"
+          - "FPGA"
+          - "VGA"
+
+      - title: Wordle PLUS
+        content: |-
+          Remake of popular web-based word game Wordle using MERN stack. Builds on Wordle by allowing game to be 
+          played with 4, 5, or 6 letter words and giving unlimited plays a day with a random word each time.
+        image: 
+        badges:
+          - "React"
+          - "MongoDB"
+          - "Node.js"
+          - "Express.js"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/trungvu08/Wordle-PLUS
+
+      - title: Fitness Form Protection Tool
+        content: 
+        image: 
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          name: Demo
+          link: "https://youtu.be/kuaJNQWbsLo"
         badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
+          - "C"
+          - "IoT"
+          - "Machine Learning"
+          - "STM32"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
-
+            url: 
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: gurusabarisha@gmail.com
-    btnName: Mail me
+    title: "How to Reach Me"
+    content: |-
+      Feel free to shoot me an email or message me on LinkedIn and I'll respond as soon as possible!
+      I'd be more than happy to discuss opportunities, answer questions, or just chat.
+    email: trungvu08@ucla.edu
+    btnName: Email
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
@@ -367,11 +480,11 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      email: "mailto:trungvu08@ucla.edu"
+      github: https://github.com/trungvu08
+      linkedin: https://linkedin.com/in/trungvu08
+      instagram: https://www.instagram.com/trung_vu_panda/
+      facebook: https://www.facebook.com/TruVu02
 
   # List pages like blogs and posts
   listPages:
