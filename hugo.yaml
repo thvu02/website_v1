@@ -54,8 +54,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Trung Vu"
+  description: Trung's personal website
   # staticPath: ""  # The path to serve the static files from
   favicon: "/images/rank.png"
 
@@ -186,119 +186,145 @@ params:
         company: "Sandia National Laboratories"
         companyUrl: "https://www.sandia.gov/"
         date: "Jun 2023 - present"
-        # featuredLink:
-        #   enable: true
-        #   name: "View the project"
-        #   url: "https://example.com"
         info:
           enable: false
           content: "Albuquerque, NM --> remote"
-        content: "I am currently working as a cybersecurity R&D intern at [Sandia National Laboratories](https://www.sandia.gov/)
-        where I work towards automating the generation of summary reports and activity alerts for Sandia's OT network. I was in Albuquerque, NM
-        for this position, but now I am working remotely."
+        content: "I am currently working as a cybersecurity R&D intern at Sandia National Laboratories
+        where I work towards automating the generation of summary reports and activity alerts for Sandia's 
+        OT network. I was in Albuquerque, NM for this position, but now I am working remotely."
 
       - job: "Data Scientist"
         company: "NASA JPL"
         companyUrl: "https://www.jpl.nasa.gov/"
         date: "Jun 2022 - Sep 2022"
-        # featuredLink:
-        #   enable: true
-        #   url: "https://example.com"
         info:
           enable: false
           content: "Pasadena, CA"
-        content: |
-          Researched global and regional surface temperature anomaly trends using CMIP6 and Berkeley Earth data. 
+        content: |-
+          I analyzed global and regional surface temperature anomalies of CMIP6 and Berkeley Earth data using machine learning with 
+          Python to better understand global and regional warming trends. Using that understanding, I developed a deep neural network
+          (DNN) using PyTorch to predict surface temperatures for the 21st century. I then organized an ensemble of the 16
+          best climate project models and compared it with my DNN.
+
+          This internship opportunity was achieved through [<u>UCLA's Joint Institute for Regional Earth and System Science & Engineering</u>](https://jifresse.ucla.edu/)
+          (JIFRESSE) which is a scientific collaboration between UCLA and JPL. I encourage all those interested in tackling climate
+          change to explore this opportunity!
 
       - job: "Software Engineer"
         company: "SISYPHUS Global Systems"
-        companyUrl: ""
-        date: ""
+        companyUrl: "https://sisyphus-gs.com/"
+        date: "Mar 2021 - Jun 2022"
         info:
           enable: false
           content: ""
-        featuredLink:
-          enable: true
-          url: ""
-        content: |
-          asd
+        content: |-
+          At SISYPHUS, I helped develop green and grey infrastructure maps for New Orleans, LA with ArcGIS API for JavaScript to 
+          improve the company's GIS database and disaster risk/mitigation method calculations. Additionally, I researched and 
+          implemented several IBM software, such as Watson Assistant, App Connect, Code Engine, and etc., into the product's system 
+          architecture. Lastly, I contributed in re-designing the company's website to better disect the product and its tech talk
+          so the company can better attract customers and investors.
+
       - job: "Researcher"
         company: "Scalable Analytics Institute"
-        companyUrl: ""
-        date: ""
+        companyUrl: "https://scai.cs.ucla.edu/"
+        date: "Apr 2023 - present"
         info:
           enable: false
           content: ""
-        featuredLink:
-          enable: true
-          url: ""
-        content: |
-          asd
+        content: |-
+          I'm working with graph neural networks (GNN) using PyTorch and DGL to uncover intrinsic patterns underlying unlabeled 
+          protein sequence databases to assist in advanced property modeling. More specifically, I'm attempting to create an ML 
+          model that can accurately detect methionine modification. The reason why I'm using GNNs is because, unlike typical ML 
+          models, GNNs can take advantage of the structure of proteins and potentially yield more accurate prediction results.
 
       - job: "Group Tutor"
         company: "UCLA Samueli School of Engineering"
-        companyUrl: ""
-        date: ""
+        companyUrl: "https://samueli.ucla.edu/"
+        date: "Sep 2021 - present"
         info:
           enable: false
           content: ""
-        featuredLink:
-          enable: true
-          url: ""
-        content: |
-          asd
+        content: |-
+          - Taught: Fall 21, Spr 22, Fall 22
+          - Will be teaching: Fall 23, Spr 24
+
+          I assist Professor William Kaiser in teaching ENGR 96i: Internet of Things by teaching over 150 students how to program 
+          in C, educating students on how the STM32L4 microprocessor on the  
+          [<u>STMicroelectronics SensorTile</u>](https://www.st.com/en/evaluation-tools/steval-stlkt01v1.html#st_description_sec-nav-tab) works, and explaining 
+          how machine learning is performed via the EmbeddedML Neural Network. I do this to assist students in developing their 
+          own IoT device with motion detection functionality using accelerometer and gyroscope data from the SensorTile.
+
+          I also assist Professor Kaiser in teaching ENGR 96c: Cybernetics by tutoring students in robotic control systems and
+          teaching students how to use MATLAB. I do to help guide students towards developing their own cybernetics projects.
+
+          Outside the classroom, I am developing and testing learning modules using the 
+          [<u>B-U585I-IOT02A IoT node</u>](https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html#)  for future adaptation into the 
+          course since this IoT device will be replacing the SensorTile.
 
       - job: "External Vice President"
         company: "Upsilon Pi Epsilon"
-        companyUrl: ""
-        date: ""
+        companyUrl: "https://upe.seas.ucla.edu/"
+        date: "Jan 2022 - present"
         info:
           enable: false
           content: ""
-        featuredLink:
-          enable: true
-          url: ""
-        content: |
-          asd
+        content: |-
+          - Prev: Entrepreneurship Chair, Entrepreneurship Intern
+          
+          I supervise UPE's Alumni, Corporate, and Entrepreneurship Committees, ensuring they meet their annual goals, host events
+          properly, and are spending within their allocated budget. I also offer my support to any of the 6 other committees within
+          the club.
+
+          Additionally, I work closely with the Computer Science Department, ACM at UCLA, and Exploretech.LA to organize various
+          corporate, entrepreneurship, and publicity events for current and incoming UCLA computer science students. Some events
+          I've organized or will organize are CS Townhall, CS Welcome Day, CS Career Fair, and Tech Talk with Jane Street.
+
+          Something else I do is recruit companies into the Computer Science Department's affiliate system and act as liaison between
+          the companies and the CS Department.
+
+          Lastly, I provide free tutoring services for 2 hrs/wk at the UPE clubhouse.
 
       - job: "Tech Innovator"
         company: "VentureWell"
-        companyUrl: ""
-        date: ""
+        companyUrl: "https://venturewell.org/"
+        date: "Jun 2021 - Sep 2021"
         info:
           enable: false
           content: ""
-        featuredLink:
-          enable: true
-          url: ""
-        content: |
-          asd
+        content: |-
+          During this startup accelerator, I determined value chain, computed competitive analysis, and identified product-market fit 
+          for SISYPHUS Global Systems. I also attended workshops to develop the entrepreneurial skills necessary to successfully launch 
+          a startup and participated in coaching/mentorship with Verizon and VentureWell representatives to refine SISYPHUS's technology 
+          and marketing strategies.
+
+          Additionally, I organized and presented a product pitch to Chelsea Clinton, Verizon representative Nicki Palmer, and 
+          VentureWell CEO Phil Weilerstein that won against 12 startups and secured SISYPHUS a position in VentureWell's Propel program.
 
       - job: "Instructor Aide"
         company: "UCLA Extension"
-        companyUrl: ""
-        date: ""
+        companyUrl: "https://www.uclaextension.edu/"
+        date: "Sep 2023 - present"
         info:
           enable: false
           content: ""
-        featuredLink:
-          enable: true
-          url: ""
-        content: |
-          asd
+        content: |-
+          This field will be populated soon :)
 
       - job: "Workshop Facilitator"
         company: "Vietnamese Student Union"
-        companyUrl: ""
-        date: ""
+        companyUrl: "https://vsubruins.com/"
+        date: "Oct 2022 - Apr 2023"
         info:
           enable: false
           content: ""
-        featuredLink:
-          enable: true
-          url: ""
-        content: |
-          asd
+        content: |-
+          - Presented at: VSU High School Conference '22, Southeast Asian Admit Weekend '23, Southeast Asian Transfer Enrichment Day '23 
+
+          I organized a presented a variety of workshops to southeast asian high school students, high school students admitted to UCLA,
+          and propsective UCLA transfer students. These workshops ranged from academics to southeast asian education to mental health 
+          awareness. More specifically, the workshops I presented covered topics such as race data aggregation, southeast asian deportation
+          representation in higher education, resume building, obtaining research and internship positions, how to network, time management,
+          and self-care benefits and methods. In total, I have presented my workshops to approximately 175 people.
 
       # - job: "title"
       #   company: "title"
@@ -309,6 +335,7 @@ params:
       #     content: ""
       #   featuredLink:
       #     enable: true
+      #     name: "View the project"
       #     url: ""
       #   content: |
       #     asd
@@ -322,7 +349,7 @@ params:
       - title: "B.S. Computer Science and Engineering"
         school:
           name: "University of California, Los Angeles (UCLA)"
-          url: "https://example.org"
+          url: "https://www.ucla.edu/"
         date: "2020 - present"
         GPA: "3.6 out of 4.0"
         content: |-
@@ -444,7 +471,10 @@ params:
             url: https://github.com/trungvu08/Wordle-PLUS
 
       - title: Fitness Form Protection Tool
-        content: 
+        content: |-
+          Internet of Things (IoT) system created using C, EmbeddedML Neural Network, and STMicroelectronics SensorTile which hosted a STM32L4 microprocessor, 
+          accelerometer, and gyroscope. The IoT system uses 2-state motion analysis to determine if a user has properly executed simple exercises 
+          (Russian twist, hip rises, sit ups).
         image: 
         featured:
           name: Demo
@@ -454,13 +484,13 @@ params:
           - "IoT"
           - "Machine Learning"
           - "STM32"
-        links:
-          - icon: fab fa-github
-            url: 
+        # links:
+        #   - icon: fab fa-github
+        #     url: TODO-->(add url)
   #Contact
   contact:
     enable: true
-    title: "How to Reach Me"
+    title: "Contact"
     content: |-
       Feel free to shoot me an email or message me on LinkedIn and I'll respond as soon as possible!
       I'd be more than happy to discuss opportunities, answer questions, or just chat.
