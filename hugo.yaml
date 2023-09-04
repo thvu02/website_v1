@@ -383,31 +383,29 @@ params:
     items:
       - title: MIT Climate & Energy Prize
         content: Accepted into startup competition
-        image: /images/mit_school.png
+        image: "/images/mit_school.png"
 
       - title: 2021 Call for Code Global Challenge
         content: One of five regional finalist in North America
         url: "https://developer.ibm.com/callforcode/solutions/2021-solutions/#regionalfinalists"
-        image: /images/ibmLogo.png/
+        image: "/images/ibmLogo.png/"
 
       - title: 2021 Verizon & CGI U Social Innovation Challenge
         content: Beat 12 startups in startup accelerator
         url: "https://venturewell.org/pitch-competitions-2/"
-        image: /images/venturewell.png/
+        image: "/images/venturewell.png/"
 
       - title: IBM AI Spot Challenge
         content: 2nd place
-        url: ""
-        image: /images/ibmLogo.png/
+        image: "/images/ibmLogo.png/"
 
       - title: IBM Code Engine Challenge
         content: 2nd place
-        url: ""
-        image: /images/ibmLogo.png/
+        image: "/images/ibmLogo.png/"
 
       - title: Howard Hackathon for Environmental Justice
         content: 2nd place
-        image: /images/ibmLogo.png/
+        image: "/images/ibmLogo.png/"
 
       # - title: 
       #   content:  
@@ -422,7 +420,7 @@ params:
     items:
       - title: Personal Website
         content: My own website created with Hugo using a template and hosted on GitHub pages.
-        image: /images/personalWebsite.jpg/
+        image: "/images/personalWebsite.jpg/"
         featured:
           name: Demo
           link: "https://trunghvu.com/"
@@ -436,10 +434,10 @@ params:
 
       - title: Pong!
         content: Implementation of pong on a FPGA using Verilog
-        image: /images/pong.jpg/
+        image: "/images/pong.jpg/"
         featured:
           name: Hardware
-          link: /images/hardware.jpg/
+          link: "/images/hardware.jpg/"
         badges:
           - "Verilog"
           - "FPGA"
@@ -450,7 +448,7 @@ params:
 
       - title: Uniqueness Test
         content: React project hosted on GitHub pages that is a family-friendly version of the popular Rice Purity test.
-        image: /images/uniquenessTest.jpg/
+        image: "/images/uniquenessTest.jpg/"
         featured:
           name: Demo
           link: "https://trunghvu.com/uniquenesstest/"
@@ -464,7 +462,7 @@ params:
         content: |-
           System that visualizes frequencies of audio signals on VGA monitor with SystemVerilog and an FPGA. I also recreated 
           the Flappy Bird video game where users control bird movement using FPGA.
-        image: /images/dav.jpg/
+        image: "/images/dav.jpg/"
         badges:
           - "SystemVerilog"
           - "FPGA"
@@ -474,7 +472,7 @@ params:
         content: |-
           Remake of popular web-based word game Wordle using MERN stack. Builds on Wordle by allowing game to be 
           played with 4, 5, or 6 letter words and giving unlimited plays a day with a random word each time.
-        image: /images/wordlePlus.jpg/
+        image: "/images/wordlePlus.jpg/"
         badges:
           - "React"
           - "MongoDB"
@@ -489,7 +487,7 @@ params:
           Internet of Things (IoT) system created using C, EmbeddedML Neural Network, and STMicroelectronics SensorTile which hosted a STM32L4 microprocessor, 
           accelerometer, and gyroscope. The IoT system uses 2-state motion analysis to determine if a user has properly executed simple exercises 
           (Russian twist, hip rises, sit ups).
-        image: images/fitnessFormProtectionTool.JPG/
+        image: "images/fitnessFormProtectionTool.JPG/"
         featured:
           name: Demo
           link: "https://youtu.be/kuaJNQWbsLo"
