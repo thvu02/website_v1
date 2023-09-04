@@ -1,4 +1,4 @@
-# baseURL: "https://trunghvu.com/"
+baseURL: "https://trunghvu.com/"
 languageCode: "en-us"
 title: "Trung Vu"
 theme: hugo-profile
@@ -23,18 +23,18 @@ markup:
     renderer:
       unsafe: true
 
-Menus:
-  main:
-    - identifier: blog
-      name: Blog
-      title: Blog posts
-      url: /blogs
-      weight: 1
-    - identifier: gallery
-      name: Gallery
-      title: Blog posts
-      url: /gallery
-      weight: 2
+# Menus:
+#   main:
+    # - identifier: blog
+    #   name: Blog
+    #   title: Blog posts
+    #   url: /blogs
+    #   weight: 1
+    # - identifier: gallery
+    #   name: Gallery
+    #   title: Blog posts
+    #   url: /gallery
+    #   weight: 2
     #Dropdown menu
     # - identifier: dropdown
     #   title: Example dropdown menu
@@ -105,7 +105,7 @@ params:
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Trung Vu" # Brand name for the brand | default is the title variable
-    disableSearch: false
+    disableSearch: true
     # searchPlaceholder: "Search"
     menus:
       disableAbout: false
@@ -148,7 +148,6 @@ params:
   about:
     enable: true
     title: "About Me"
-    # image: "/images/me.png"
     image: "images/professionalMe.JPG"
     content: |-
       I am a 4th year undergraduate Computer Science and Engineering student in the [<u>Henry Samueli School of Engineering</u>](https://linkedin.com/in/trungvu08) at 
@@ -376,6 +375,88 @@ params:
         #   enable: true
         #   url: "https://example.com"
 
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Personal Website
+        content: My own website created with Hugo using a template and hosted on GitHub pages.
+        image: "/images/personalWebsite.jpg/"
+        featured:
+          name: Demo
+          link: "https://trunghvu.com/"
+        badges:
+          - "Hugo"
+          - "Bootstrap"
+          - "JavaScript"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/trungvu08/trungvu08.github.io"
+      - title: Pong!
+        content: Implementation of pong on a FPGA using Verilog
+        image: "/images/pong.jpg/"
+        featured:
+          name: Hardware
+          link: "/images/hardware.jpg/"
+        badges:
+          - "Verilog"
+          - "FPGA"
+          - "VGA"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/nnguyendinh/FPGA_pong"
+      - title: Uniqueness Test
+        content: React project hosted on GitHub pages that is a family-friendly version of the popular Rice Purity test.
+        image: "/images/uniquenessTest.jpg/"
+        featured:
+          name: Demo
+          link: "https://trunghvu.com/uniquenesstest/"
+        badges:
+          - "React"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/trungvu08/uniquenesstest
+      - title: Digital Audio Visualizer
+        content: |-
+          System that visualizes frequencies of audio signals on VGA monitor with SystemVerilog and an FPGA. I also recreated 
+          the Flappy Bird video game where users control bird movement using FPGA.
+        image: "/images/dav.jpg/"
+        badges:
+          - "SystemVerilog"
+          - "FPGA"
+          - "VGA"
+      - title: Wordle PLUS
+        content: |-
+          Remake of popular web-based word game Wordle using MERN stack. Builds on Wordle by allowing game to be 
+          played with 4, 5, or 6 letter words and giving unlimited plays a day with a random word each time.
+        image: "/images/wordlePlus.jpg/"
+        badges:
+          - "React"
+          - "MongoDB"
+          - "Node.js"
+          - "Express.js"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/trungvu08/Wordle-PLUS
+      - title: Fitness Form Protection Tool
+        content: |-
+          Internet of Things (IoT) system created using C, EmbeddedML Neural Network, and STMicroelectronics SensorTile which hosted a STM32L4 microprocessor, 
+          accelerometer, and gyroscope. The IoT system uses 2-state motion analysis to determine if a user has properly executed simple exercises 
+          (Russian twist, hip rises, sit ups).
+        image: "images/fitnessFormProtectionTool.JPG/"
+        featured:
+          name: Demo
+          link: "https://youtu.be/kuaJNQWbsLo"
+        badges:
+          - "C"
+          - "IoT"
+          - "Machine Learning"
+          - "STM32"
+        # links:
+        #   - icon: fab fa-github
+        #     url: TODO-->(add url)
+
   # Achievements
   achievements:
     enable: true
@@ -411,94 +492,6 @@ params:
       #   content:  
       #   url: ""
       #   image: 
-
-      
-  # projects
-  projects:
-    enable: true
-    # title: "Custom Name"
-    items:
-      - title: Personal Website
-        content: My own website created with Hugo using a template and hosted on GitHub pages.
-        image: "/images/personalWebsite.jpg/"
-        featured:
-          name: Demo
-          link: "https://trunghvu.com/"
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "JavaScript"
-        links:
-          - icon: fab fa-github
-            url: "https://github.com/trungvu08/trungvu08.github.io"
-
-      - title: Pong!
-        content: Implementation of pong on a FPGA using Verilog
-        image: "/images/pong.jpg/"
-        featured:
-          name: Hardware
-          link: "/images/hardware.jpg/"
-        badges:
-          - "Verilog"
-          - "FPGA"
-          - "VGA"
-        links:
-          - icon: fab fa-github
-            url: "https://github.com/nnguyendinh/FPGA_pong"
-
-      - title: Uniqueness Test
-        content: React project hosted on GitHub pages that is a family-friendly version of the popular Rice Purity test.
-        image: "/images/uniquenessTest.jpg/"
-        featured:
-          name: Demo
-          link: "https://trunghvu.com/uniquenesstest/"
-        badges:
-          - "React"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/trungvu08/uniquenesstest
-
-      - title: Digital Audio Visualizer
-        content: |-
-          System that visualizes frequencies of audio signals on VGA monitor with SystemVerilog and an FPGA. I also recreated 
-          the Flappy Bird video game where users control bird movement using FPGA.
-        image: "/images/dav.jpg/"
-        badges:
-          - "SystemVerilog"
-          - "FPGA"
-          - "VGA"
-
-      - title: Wordle PLUS
-        content: |-
-          Remake of popular web-based word game Wordle using MERN stack. Builds on Wordle by allowing game to be 
-          played with 4, 5, or 6 letter words and giving unlimited plays a day with a random word each time.
-        image: "/images/wordlePlus.jpg/"
-        badges:
-          - "React"
-          - "MongoDB"
-          - "Node.js"
-          - "Express.js"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/trungvu08/Wordle-PLUS
-
-      - title: Fitness Form Protection Tool
-        content: |-
-          Internet of Things (IoT) system created using C, EmbeddedML Neural Network, and STMicroelectronics SensorTile which hosted a STM32L4 microprocessor, 
-          accelerometer, and gyroscope. The IoT system uses 2-state motion analysis to determine if a user has properly executed simple exercises 
-          (Russian twist, hip rises, sit ups).
-        image: "images/fitnessFormProtectionTool.JPG/"
-        featured:
-          name: Demo
-          link: "https://youtu.be/kuaJNQWbsLo"
-        badges:
-          - "C"
-          - "IoT"
-          - "Machine Learning"
-          - "STM32"
-        # links:
-        #   - icon: fab fa-github
-        #     url: TODO-->(add url)
 
   #Contact
   contact:
