@@ -129,7 +129,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/12VmaRSV_-MlpePUk0swwI00e0xwf9orB/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1akembcgs0LE9fbfA27EdgH-A-Q1iXhsg/view?usp=sharing"
       download: true
       newPage: false
     socialLinks:
@@ -307,7 +307,8 @@ params:
           enable: false
           content: ""
         content: |-
-          This field will be populated soon :)
+          As a staff member of UCLA Extension's Technical Management Program, I am assisting office staff and instructors in a variety of 
+          tasks prior to and during the program. Additionally, I am interacting with technical managers in both classroom and informal sessions.
 
       - job: "Workshop Facilitator"
         company: "Vietnamese Student Union"
@@ -319,10 +320,10 @@ params:
         content: |-
           - Presented at: VSU High School Conference '22, Southeast Asian Admit Weekend '23, Southeast Asian Transfer Enrichment Day '23 
 
-          I organized a presented a variety of workshops to southeast asian high school students, high school students admitted to UCLA,
+          I organized and presented a variety of workshops to southeast asian high school students, high school students admitted to UCLA,
           and propsective UCLA transfer students. These workshops ranged from academics to southeast asian education to mental health 
           awareness. More specifically, the workshops I presented covered topics such as race data aggregation, southeast asian deportation
-          representation in higher education, resume building, obtaining research and internship positions, how to network, time management,
+          and representation in higher education, resume building, obtaining research and internship positions, how to network, time management,
           and self-care benefits and methods. In total, I have presented my workshops to approximately 175 people.
 
       # - job: "title"
@@ -441,7 +442,7 @@ params:
             url: https://github.com/trungvu08/Wordle-PLUS
       - title: Fitness Form Protection Tool
         content: |-
-          Internet of Things (IoT) system created using C, EmbeddedML Neural Network, and STMicroelectronics SensorTile which hosted a STM32L4 microprocessor, 
+          Internet of Things (IoT) system created using C, EmbeddedML Neural Network, and STMicroelectronics SensorTile which hosts a STM32L4 microprocessor, 
           accelerometer, and gyroscope. The IoT system uses 2-state motion analysis to determine if a user has properly executed simple exercises 
           (Russian twist, hip rises, sit ups).
         image: "images/fitnessFormProtectionTool.JPG/"
