@@ -1,0 +1,29 @@
+{
+  "main": [
+    {
+      "name": "linkedin",
+      "icon": "fab fa-linkedin",
+      "link": "https://linkedin.com/in/trungvu08"
+    },
+    {
+      "name": "github",
+      "icon": "fab fa-github",
+      "link": "https://github.com/trungvu08"
+    },
+    {
+      "name": "instagram",
+      "icon": "fab fa-instagram",
+      "link": "https://www.instagram.com/trung_vu_panda/"
+    },
+    {
+      "name": "facebook",
+      "icon": "fab fa-facebook",
+      "link": "https://www.facebook.com/TruVu02"
+    },
+    {
+      "name": "email",
+      "icon": "fas fa-envelope",
+      "link": "mailto:trungvu08@ucla.edu"
+    }
+  ]
+}
