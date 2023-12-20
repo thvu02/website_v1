@@ -2,7 +2,7 @@
 # Banner
 banner:
   title: "Trung's Website"
-  content: "A work in progress. Learn everything about me from my professional career, extracurriculars, side projects, hobbies, and etc."
+  content: "Learn everything about me from my professional career, extracurriculars, side projects, hobbies, and etc."
   image: "/images/myimages/seaadmit.JPG"
   button:
     - enable: true
@@ -54,12 +54,14 @@ features:
       label: "Experience"
       link: "/experience"
 
-  - title: "Awards and Recognition"
+  - title: "Awards and Honors"
     image: "/images/myimages/ibmLogo.png"
-    content: "Throughout my career, I've earned a variety of awards. Click the button to learn more about them!"
+    content: "Throughout my career, I've earned a variety of awards and honors. Click the button to learn more about them!"
     bulletpoints:
       - "MIT"
       - "IBM"
+      - "NSF REU"
+      - "Upsilon Pi Epsilon"
       - "Deans Honors List"
     button:
       enable: true

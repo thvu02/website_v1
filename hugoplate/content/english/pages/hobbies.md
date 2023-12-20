@@ -28,13 +28,15 @@ Normally I try not to spend any money on in-game purchases, but this game actual
 
 I haven't been recording my gameplay as of recent, so I can't show anything nice. But, here's a decent clip one of my friends recorded for me in the summer of 2022.
 
-{{< video src="images/myvideos/i_finally_aced.mp4" width="100%" height="auto" autoplay="false" loop="false" muted="false" controls="true" class="rounded-lg" >}}
+{{< youtube sfKNvJxwkDM >}}
 
 #### Fortnite
 
 I started playing Fortnite on mobile like most people when I got bored in math class back in highschool. This was probably Fall of 2017? In my defense, I got the highest scores in the class and I already knew how to do all the course material. If it was new content, I mastered it better and faster by self-learning. Other students in the class told me they understood the material better when I taught them compared to the teacher too. So, I feel decently justified playing Fortnite during class.
 
 In any case, Fortnite was fun until they added in the mech. I learned how to crank 90s, double pump, and do all the nice tech just for it to all mean nothing in the face of a no-skill machine that shoots unlimited rockets at me. The game was not good and I quit. I got back into the game over summer and it's in a better state now. Not as many sweaty kids and nothing extremely broken.
+
+{{< youtube EN8KfkMBnJA >}}
 
 #### Minecraft
 
@@ -44,17 +46,23 @@ When I got Minecraft on PC, the desktops I had at home weren't powerful enough t
 
 In my opinion, Minecraft isn't something you play consistently. It's something you just hop back on every now and then. Usually, my friend group creates a server once every year, play for two weeks, and never touch it again.
 
+{{< youtube 0CQzgRLzsCc >}}
+
 #### Terraria
 
 If it wasn't for my friend and roommate Chris, I don't think I would have ever made it past the first stage of this game. Why is it so hard for no reason? Terraria is a super fun game, but I just can't survive. I get hard-carried by Chris through all the boss fights.
 
 I've only played mage class for Terraria, but I like playing up close and personal in fights. That's probably why I always die. I actually don't remember if I ever finished killing the final boss.
 
+{{< youtube oYtZvz62r5g >}}
+
 #### Call of Duty
 
 Call of Duty was basically my entire life when COVID-19 hit and school became remote. I never played COD before, so Modern Warfare 2019 was my first COD experience. Every day I'd be grinding the skin challenges so I could get damascus. Once the obsidian challenges came out, I finished it for some of the rifles and smgs, but I wasn't able to do that for every gun. Watching FaZe Jev do it was enough for me.
 
 As weird as it sounds, I think Call of Duty was a huge part of be becoming more extroverted. I never shit talked because I just couldn't think of comebacks quick enough, especially when all people say are derogatory remarks and there's no civil response for that. Nevertheless, I think being in that environment just made me less afraid of people. 
+
+{{< youtube 0-oI3WeB27s >}}
 
 ## Cooking
 <hr>
