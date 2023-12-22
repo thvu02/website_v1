@@ -40,6 +40,9 @@
   &-header {
     @apply text-dark dark:text-darkmode-dark;
   }
+  &-content {
+    @apply text-dark dark:text-darkmode-dark overflow-auto;
+  }
 }
 
 // cookie consent
