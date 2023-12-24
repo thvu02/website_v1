@@ -107,8 +107,6 @@ Dates: Sep 2023 - Sep 2023
 
 UCLA Extension's [Technical Management Program](https://www.uclaextension.edu/engineering/technical-management-program) (TMP) is a week-long program designed to improve the leadership and management skills of aspiring and current technical managers in industry. This is done through a variety of workshops which help managers gain leadership skills, enrich interpersonal skills, and discover a library of methods to resolve issues, plan effectively, and motivate staff members.
 
-I became an Instructor Aide for the program to make some quick cash over spring break since I wasn't doing anything anyways, but the positions got filled up, so I was given a position for the fall iteration of the program.
-
 As a Instructor Aide, I worked alongside 5 other aides to assist office staff and instructors in facilitating leadership and management workshops for over 130 technical managers from companies such as Blizzard, Credit Karma, Sandia National Laboratories, and Lawrence Livermore National Laboratories. The days were long and hard. It wasn't your typical CS job where you sit in a chair, think, and write code all day. I was moving around doing print jobs, setting up banners, etc. But I got to participate in the workshops I TA-ed for and engage with the managers in various activities and exercises, so that's a plus.
 
 Naturally, my position had me working with the TMP organizers which consisted of Joon Lee, Gina Springer, and Nicole Lim. While I understood that Joon was my boss, the work dynamic felt more like a nephew working with his cool uncle. I had great conversations with Joon as well as Gina and Nicole, and they were all very kind and understanding. Dr. William Goodin would sometimes stop by as well since he was the previous director of the program. It was great getting to talk and joke around with him as I work with Dr. Goodin as EVP for UPE, but never got to interact with him much through that position. As TMP progressed, I got to engage with Dr. Goodin and built a strong working relationship with him. We discussed UPE objectives, but also talked about more casual topics such as the food or his unique set of UCLA themed ties.
@@ -126,9 +124,15 @@ Wrapping all this up, TMP is a wonderful program and being an Instructor Aide fo
 Position: Tech Innovator   
 Dates: Jun 2021 - Sep 2021
 
-As a participant of [VentureWell's](https://venturewell.org/) startup accelerator, I determined value chain, computed competitive analysis, and identified product-market fit for SISYPHUS Global Systems. I also attended workshops to develop the entrepreneurial skills necessary to successfully launch a startup and participated in coaching/mentorship with Verizon and VentureWell representatives to refine SISYPHUS's technology and marketing strategies.
+[VentureWell,](https://venturewell.org/) alongside Verizon and Clinton Global Initiative University (CGI U), hosted a startup accelerator which I participated in as a representative of SISYPHUS Global Systems along with some other SISYPHUS staff. The startup accelerator was called Verizon and CGI U Social Innovation Challenge and is the first of three phases for VentureWell's E-Team program. The three phases, in order, are Pioneer, Propel, and Aspire.
 
-Additionally, I organized and presented a product pitch to Chelsea Clinton, Verizon representative Nicki Palmer, and VentureWell CEO Phil Weilerstein that won against 12 startups and secured SISYPHUS a position in VentureWell's Propel program.
+During this program, I planned value proposition, determined value chain, computed competitive analysis, identified product-market fit, and conducted informational interviews with various subject experts in environmental science, urban planning, and engineering. This allowed me to better orient SISYPHUS's product to ensure the most success and opened my eyes to all the factors that need to be considered when creating a product. Beyond this, I attended workshops to develop the entrepreneurial skills necessary to successfully launch a startup and participated in coaching and mentorship sessions with Verizon and VentureWell staff to refine SISYPHUS's technology stack and marketing strategies. Going through all these exercises and sessions, I was able to help SISYPHUS improve not only its web-app product, but also how the company pitched the product. 
+
+When the program reached the final stages, all the startup teams participating were told that they'd be doing a product pitch to a panel composed of VentureWell, Verizon, and CGI U staff. The performance of each startup on this product pitch would determine whether they can move to the next stage of VentureWell's E-Team program, Propel. I was slightly worried for SISYPHUS because the startup was quite young compared to the other startups. Additionally, the other startups had more staff and connections than us. Nevertheless, I didn't show fear and prepared for the product pitch competition with confidence.
+
+I worked with the SISYPHUS team to organize our product pitch and presented it to Clinton Foundation Vice Chair Chelsea Clinton, Verizon representative Nicki Palmer, and VentureWell CEO Phil Weilerstein. Despite initial fears of not being good enough to beat the other startups, the product pitch my team gave was much stronger than that of our peers. My team beat the 12 other startups in the program and secured SISYPHUS a slot in VentureWell's second phase of the E-Team program. Unfortunately, the Propel stage was going to start when school would start, so I decided to yield my spot on SISYPHUS's team to another SISYPHUS staff member.
+
+All in all, I received a lot from participating in this startup accelerator. I knew that launching a startup was no easy task, but I didn't realize it was so complex. This program opened my eyes to perspectives I've never considered before and taught me many skills that I never would have learned in my major coursework. Furthermore, seeing all the unique problems each startup in the program attempted to solve made me realize how many issues the world is currently facing and bolstered my motivation to utilize my skillset towards societal betterment. Lastly, participating in this program taught me to be confident in myself regardless of the odds and to never back down from a challenge. The lessons and realizations I gained from this program changed my perspective on my undergraduate education and put me on the path to where I am today. If I didn't participate in this program, I don't think I would be anything near what I am now.
 
 {{< /accordion >}}
 
@@ -142,10 +146,24 @@ Position: External Vice President
 Dates: Sep 2021 - Present
 
 - Prev: Entrepreneurship Chair, Entrepreneurship Intern
-          
-As External Vice President of [UPE](https://upe.seas.ucla.edu/), I supervise UPE's Alumni, Corporate, and Entrepreneurship Committees, ensuring they meet their annual goals, host events properly, and are spending within their allocated budget. I also offer my support to any of the 6 other committees within the club. Additionally, I work closely with the Computer Science Department, ACM at UCLA, and Exploretech.LA to organize various corporate, entrepreneurship, and publicity events for the over 2000 UCLA computer science related undergraduate students. Some events I've organized or will organize are CS Townhall, CS Welcome Day, CS Career Fair, and Tech Talk with Jane Street. Something else I do is recruit companies into the Computer Science Department's affiliate system and act as liaison between the companies and the CS Department. Lastly, I provide free tutoring services in computer science coursework for 2 hrs/wk at the UPE clubhouse.
 
-Before becoming EVP, I collaborated with Entrepreneurship Committee members to organize and host Hot Ones panel, bringing in UCLA alumni entrepreneurs to share their stories and answer questions for over 100 student attendees. I also, led a team of 3 to organize UPE Entrepreneurship's Poker and Board Game Night, providing UCLA students the opportunity to casually chat, play, and network with established entrepreneurs. Furthermore, I worked in collaboration with Bruin Entrepreneurs to organize UCLA's first Foundathon, an event for UCLA students interested in entrepreneurship with a product pitching competition and workshops. I helped develop workshops and guidelines for product pitch judging among other things.
+[Upsilon Pi Epsilon](https://upe.acm.org/) (UPE) is the international honor society for the computing and information disciplines. UPE was founded at Texas A&M University, College Station, Texas in 1967 and since then has chapters at various colleges and universities such as UCLA, Berkeley, Georgia Tech, CPP, and USC. The UCLA chapter of UPE serves as the premier honor society for the following computing majors: CS, CSE, CE, Ling & CS, Math of Comp. I inducted into UPE in Fall 2021 and am currently the External Vice President (EVP).
+
+As EVP of [UCLA UPE,](https://upe.seas.ucla.edu/) I supervise three of UPE’s committees: Alumni, Corporate, and Entrepreneurship. Supervising these committees means ensuring they meet their annual goals, host events properly, and do not exceed their allocated budget. I provide the committees guidance and suggestions while they plan events, giving date suggestions that would yield greater attendance, alternative plans that would keep them within budget, and resources to contact potential guest speakers or companies. Under my supervision, the Alumni Committee has hosted successful alumni dinners, alumni mentorship programs, and virtual panels, the Entrepreneurship Committee has hosted a successful Hot Ones Panel, resume review session, and multiple networking nights, and the Corporate Committee has hosted multiple networking and recruiting events with companies like Lockheed Martin. 
+
+Another responsibility I have as EVP is being liaison between UPE and the CS Department as well as the other engineering honors societies at UCLA. I facilitate meetings between UPE and CS Department staff to discuss the affiliate program and EDI initiatives. I also ensured effective communication between both parties while planning large-sacle welcome events and career fairs for the over 2000 UCLA computer science related undergraduate students. With the other honors societies, I’d occasionally communicate and collaborate to organize joint events or discuss methods to improve member retention as well as involvement.
+
+Lastly, I provide free tutoring services in computer science coursework for 2 hrs/wk at the UPE clubhouse. One of UPE's greatest services to the UCLA community is our tutoring services. We have all our officers either tutor or supervise the tutoring room each week and have our inductees support the tutoring room as well. Our tutoring service is quite popular as the room is always packed when a big deadline approaches. It's unfortunate that we can't get a bigger to support the amount of traffic we get, but I'm just happy that I can help other students succeed in their coursework.
+
+Beyond my primary responsibilities as EVP, one of my goals is improving the CS Department’s industry affiliate program benefits to attract more companies into the program and increase the amount of companies UCLA students can network with. To that end, I have conducted interviews with companies of all levels to understand their budgets and needs. I then used that data to successfully negotiate modifications to the affiliate program, with the most impactful modification being a new $500 first-year trial for startup affiliates that addresses financial concerns of startups interested in joining the program. This effort has resulted in Jane Street and Glean joining the affiliate program. Having recruited more companies into the affiliate program, my next goal was to increase engagement with them. I helped Jane Street host their first event as an affiliate member, working with company representatives to organize a tech talk led by one of their software engineers that was attended by 160 students. Additionally, I organized a tech talk with another affiliate, Sandia National Laboratories, where a software engineer highlighted the complex challenges Sandia tackles daily and the advanced tech stack they utilize. I worked with Sandia National Laboratories to host a hackathon as well. Furthermore, I collaborated with the UCLA CS Department to organize a career fair for our industry affiliates and UCLA Computer Science students, with over 800 students attending. Hosting all these professional events with the industry affiliates has improved the relationship between them, the CS Department, and UPE, and has also provided students valuable networking experiences from which many gained internships. 
+
+Knowing that not all students are interested in immediately entering the workforce and want to pursue a Master's or PhD instead, I am also putting effort into bringing engineering graduate schools to UCLA. More specifically, I have collaborated with ACM to bring the Cornell Tech graduate school admissions team to UCLA and have them network with students. The collaboration with Cornell Tech included a workshop providing tips and tricks in creating a strong application, financial aid, and how to succeed in industry. As such, even if students did not intend to apply to Cornell, they still left with advice that is applicable to applying to any other university. Though I’ve been able to significantly improve the CS Department’s industry affiliate program, improve the relationship with current affiliates, and provide more resources to students pursuing graduate school, I know there is much more I can do and will be dedicating the remainder of my term towards this end.
+
+Given UPE's collaborative nature, committees often plan joint events and help one another. Though these committees are not technically under my supervision, I provide my services to the other 8 committees in UPE, volunteering at or helping plan events. Some events I have helped with are Induction Orientation Mixer, Summer Planning Workshop, Tech in the Park, CS Townhall, CS Welcome Day, UPE Intro Event, Demystifying CS Clubs, and Engineering Welcome Day.
+
+Before becoming EVP, I collaborated with Entrepreneurship Committee members to organize and host Hot Ones panel, bringing in UCLA alumni entrepreneurs to share their stories and answer questions for over 100 student attendees. I also led a team of 3 to organize UPE Entrepreneurship's Poker and Board Game Night, providing UCLA students the opportunity to casually chat, play, and network with established entrepreneurs. Furthermore, I worked in collaboration with Bruin Entrepreneurs to organize UCLA's first Foundathon, an event for UCLA students interested in entrepreneurship with a product pitching competition and workshops. I helped develop workshops and guidelines for product pitch judging among other things.
+
+This is already getting quite long, so I'm refraining from expanding on the other miscellaneous things I do as EVP as well as what I did before becoming EVP. But if you're curious about that, read this [blog post]() I made about my journey with UPE.
 
 {{< /accordion >}}
 
@@ -156,7 +174,9 @@ Dates: Oct 2022 - Present
 
 - Presented at: VSU High School Conference '22, Southeast Asian Admit Weekend '23, Southeast Asian Transfer Enrichment Day '23 
 
-I organize and present a variety of workshops to southeast asian high school students, high school students admitted to UCLA, and propsective UCLA transfer students. These workshops range from academics to southeast asian education to mental health awareness. More specifically, the workshops I present cover topics such as race data aggregation, southeast asian deportation and representation in higher education, resume building, obtaining research and internship positions, how to network, time management, and self-care benefits and methods. In total, I have presented my workshops to approximately 175 people.
+UCLA's Vietnamese Student Union and Southeast Asian Campus Learning Education and Retention program (SEA CLEAR) are different entities, but they collaborate so much to the point where I just consider them as one. The two clubs host a variety of programs targeted towards Southeast Asian students from the around LA area. These include High School Conference (HSC) for high school students, Southeast Asian Admit Weekend (SEA ADMIT) for high school students admitted to UCLA, and Southeast Asian Transfer Enrichment Day (SEATED) for prospective UCLA transfer students. I served as a Workshop Facilitator for all of these programs.
+
+As a Workshop Facilitator, I organize and present a variety of workshops covering a range of topics including academics, Southeast Asian education, and mental health. More specifically, the workshops I present cover topics such as race data aggregation, southeast asian deportation and representation in higher education, resume building, obtaining research and internship positions, how to network, time management, and self-care benefits and methods. In total, I have presented my workshops to approximately 175 people.
 
 {{< /accordion >}}
 
@@ -184,15 +204,29 @@ While this extracurricular does not improve my technical skills, it definitely d
 
 <hr>
 
+{{< accordion "UPE National Scholarship" >}}
+
+Each year the Executive Council of Upsilon Pi Epsilon evaluates many scholarship applications from students at both the undergraduate and graduate levels. All scholarship applicants are required to complete a comprehensive application form including a statement on their long-term plans in the profession, a summary of their contributions to their respective UPE chapters and related student activities at their college or university. Applicants are also required to submit all college-level transcripts and a recommendation from the UPE faculty adviser.
+
+Received $1,000 scholarhip from UPE national for demonstrating exceptional academic record, extra-curricular activities and strong recommendation from UPE Advisor.
+
+{{< /accordion >}}
+
+{{< accordion "Computer Science Wang NSF REU" >}}
+
+Received $1,500 scholarship to perform research on applying graph neural networks to protein modification prediction with UCLA Scalable Analytics Institute lab and Berkeley Toste lab.
+
+{{< /accordion >}}
+
 {{< accordion "MIT Climate & Energy Prize" >}}
 
-Accepted into startup competition
+Accepted into startup competition.
 
 {{< /accordion >}}
 
 {{< accordion "2021 Call for Code Global Challenge" >}}
 
-One of five regional finalist in North America
+One of five regional finalist in North America.
 
 {{< button label="Feature" link="https://developer.ibm.com/callforcode/solutions/2021-solutions/#regionalfinalists" style="solid" >}}
 
@@ -200,7 +234,7 @@ One of five regional finalist in North America
 
 {{< accordion "2021 Verizon & CGI U Social Innovation Challenge" >}}
 
-Beat 12 startups in startup accelerator
+Beat 12 startups in startup accelerator.
 
 {{< button label="Article Mention" link="https://venturewell.org/pitch-competitions-2/" style="solid" >}}
 
