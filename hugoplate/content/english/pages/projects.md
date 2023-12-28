@@ -58,7 +58,21 @@ To get a better visual understanding of what was just described along with a mor
 
 Tags: ReactJS
 
-React project hosted on GitHub pages that is a family-friendly version of the popular Rice Purity test.
+I started this personal project because I was motivated to apply my computer science skills to develop something people will actually use. At the time, I was developing a workshop for Southeast Asian Admit Weekend (SEA ADMIT) with my friend [Nathan Nguyendinh](https://www.linkedin.com/in/nathan-nguyendinh/) and we were looking for an icebreaker activity to use. We didn't want to have a boring, generic icebreaker, but we also wanted to respect the rules of SEA ADMIT and stay PG. I remembered how high schoolers and college students like doing the [Rice Purity test](http://ricepuritytest.com/) and comparing scores. As such, I suggested that the icebreaker should be a family-friendly version of the Rice Purity test and volunteered to create one using the skills I learned from other personal projects and coursework. 
+
+With Nathan's agreement, I began to develop the PG version of the Rice Purity test and called it Uniqueness Test. Uniqueness Test is a simple test that determines the uniqueness of an individual on a scale of 0 to 100. The closer one is to 100, the more unique they are. The closer to 0 one is, the more of an NPC they are. Of course, the test was designed for the purpose of entertainment and is by no means an accurate indication of one's individuality. 
+
+The process of developing this game was actually simple. I created a React project and produced a list of sets to store 100 things Southeast Asian high school students may have done (i.e. joined Key Club, listen to Keshi, etc.). I curated this list mostly independently, but I got stuck after hitting 60 items and consulted my cousins to help me reach 100 items. With the Uniqueness Test being on a scale from 0 to 100, I set each item to represent 1 point and displayed all the items on the screen to the user. When users play the game, they start with 100 points and check all the items that they have done (i.e. went to prom). Each checked box subtracts one point from the initial 100 points and the score the user has after going through all the items is their uniqueness score. After implementing the game locally, I pushed the React project to GitHub Pages so anyone can access it during SEA ADMIT without having to download any pre-requisites.
+
+The implementation of this game is clearly not that complex. In fact, the most difficult part of implementing this game was obtaining the styling I wanted through CSS and switching pages after the user clicks "Calculate Score".
+
+Despite its simple implementation, Uniqueness Test was a big hit! The SEA ADMIT attendees loved it, and the SEA ADMIT staff members raved over it as well. Given its success, I decided to create another version of the game when Southeast Asian Transfer Enrichment Day (SEATED) came around. Rather than catering the 100 items to be things high schoolers may have done, I made it to be things college students may have done since my audience this time was transfer students. I also took feedback from SEA ADMIT that 100 items were too much to scroll through, so I reduced the number to 50 and adjusted the points such that each item checked subtracts 2 points from the initial 100 points.
+
+To have both versions of the game available to play, I modified the UI of the React project. Rather than having the game immediately appear when reaching the web page, I made a start screen showing buttons that indicated different versions of the game available and redirected users to the version of the game they selected.
+
+Similar to SEA ADMIT, the game was a hit at SEATED as well. The attendees loved it and since there were only 50 questions instead of 100, there were not any complaints about the game being too long.
+
+Wrapping this up, this was the simplest project I'd ever created. However, I found it to be one of the most fulfilling as my work actually served a real purpose. Uniqueness Test got used by over 150 people (to my knowledge) and helped SEA ADMIT and SEATED attendees create happy memories during their short visit to UCLA. This is something none of my other projects achieved. I realized that sometimes the most complex project isn't going to win the hearts of others. The projects that succeed are the ones developed with enough complexity to serve the clients' interests and responsive to their feedback. 
 
 <hr>
 

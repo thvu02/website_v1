@@ -285,3 +285,9 @@ I participated in this hackathon with staff members of SISYPHUS Global Systems a
 I participated in IBM's Call for Code University Challenge: Howard Hackathon for Environmental Justice as a member of Global Flood Equity Extended Reality (later reorganized as SISYPHUS Global Systems). I worked alongside 4 team members to develop the beta version of an interactive web-portal that calculates flood risk of individual properties and its optimum flood mitigation from a GIS platform with a focus on environmental justice and equity. My team ended winning 2nd place and got a [shoutout](https://www.businessinsider.com/us-risks-climate-apartheid-if-grassroots-ideas-ignored-activist-says-2021-4) on a Business Insider podcast.
 
 {{< /accordion >}}
+
+{{< accordion "Dean's Honor List ( 20F, 21S, 23W )" >}}
+
+I got recognized by the UCLA Samueli School of Engineering in these quarters for taking over 15 units of coursework and having an average GPA of 3.7+ for those courses. I believe the requirements for Dean's Honor List has changed recently, but those were the requirements before.
+
+{{< /accordion >}}
