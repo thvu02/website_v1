@@ -59,6 +59,7 @@ To get a better visual understanding of what was just described along with a mor
 Tags: ReactJS
 
 React project hosted on GitHub pages that is a family-friendly version of the popular Rice Purity test.
+
 <hr>
 
 ## Digital Audio Visualizer
@@ -91,5 +92,16 @@ Remake of popular web-based word game Wordle using MERN stack. Builds on Wordle 
 
 Tags: C, IoT, Machine Learning, STM32
 
-Internet of Things (IoT) system created using C, EmbeddedML Neural Network, and STMicroelectronics SensorTile which hosts a STM32L4 microprocessor, accelerometer, and gyroscope. The IoT system uses 2-state motion analysis to determine if a user has properly executed simple exercises (Russian twist, hip rises, sit ups).
+The Fitness Form Protection Tool is my first personal project. It is an Internet of Things (IoT) system that uses 2-state motion analysis to determine if a user has properly executed simple exercises (i.e. Russian twist, hip rises, sit ups). I developed the code for the project using C and the EmbeddedML Neural Network and ran the code on the STMicroelectronics SensorTile which hosts a STM32L4 microprocessor, accelerometer, and gyroscope as my IoT node.
+
+My journey with this project was a difficult one as I ran into issues before I wrote a single line of code. When I attempted to connect the SensorTile to my laptop, it would not appear in device manager. With my limited knowledge in tech at the time, I had no idea what the issue was. I tried plugging in the SensorTile to different USB ports and even attempted connecting it to my desktop to see if it would detect. Nothing worked.
+
+After some research and further experimentation, I concluded that the micro-USB cable I used to connect the SensorTile to my laptop was the issue. USB cables have two categories: charging cables and data cables. While most USB cables are charging cables, not all are data cables. Furthermore, with tech, there will always be defects every now and then. Such was the case with my cable. Although I bought a micro-USB cable that was capable of data transfer, the cable was not transferring data at all which resulted in the SensorTile not being detected in device manager. After I bought a non-faulty micro-USB cable, data transferred normally and the SensorTile was detected in device manager.
+
+This little setback, although annoying, taught me a fair amount about USBs, USB ports, and USB/device compatibility. Before reaching the conclusion I mentioned above, I looked into how USB ports would fail. I learned about how dust can contribute to the buildup of static electricity that can completely bust a USB port. I also learned how some USB devices may not be fully compatible with certain USB ports or have other issues that can impact the port's performance. Furthermore, I learned about USB ports can get damaged by power surges or overloading when a device of poor quality or device demanding too much power gets plugged in.
+
+But I digress. As I moved on to develop IoT motion detection functionality, I was overwhelmed by the sheer amount of starter code. It took me a few days to fully understand the codebase and understand what purpose each function served and how the program flowed. Once I understood the code well, I explored how the SensorTile's accelerometer and gyroscope worked. It was fun experimenting with various speed and rotation thresholds to see how motion detection got affected. Beyond messing with thresholds, I also played around with 2-state motion detection. After developing the code to facilitate 2-state motion detection, I modified whether the first and/or second state would utilize the accelerometer or gyroscope. I tested the various combinations to see which would yield the best performance when distinguishing simple exercises. Lastly, I modified the neural network to see how motion classification got affected. With an understanding of how certain modifications to the neural network would affect classification, I set parameters that would provide the best performance in distinguishing exercises from one another and determine whether the performed exercise was done properly. 
+
+After much trial and error, I was able to develop IoT motion detection functionality and successfully developed an IoT node that can determine if a user has properly executed a simple exercise. I'm proud of this project as it was my first engineering project. It also opened the doors to many opportunities which have further advanced my career.
+
 <hr>

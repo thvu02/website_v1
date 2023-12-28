@@ -33,6 +33,11 @@ url = "blog/"
 
 [[main]]
 parent = "More"
+name = "Categories"
+url = "categories/"
+
+[[main]]
+parent = "More"
 name = "Hobbies"
 url = "hobbies/"
 

@@ -220,7 +220,7 @@ Wrapping this up, something I urge engineering (and all) students to understand 
 
 {{< /accordion >}}
 
-## Awards & Recognition
+## Awards and Honors
 
 <hr>
 
@@ -228,56 +228,60 @@ Wrapping this up, something I urge engineering (and all) students to understand 
 
 Each year the Executive Council of Upsilon Pi Epsilon evaluates many scholarship applications from students at both the undergraduate and graduate levels. All scholarship applicants are required to complete a comprehensive application form including a statement on their long-term plans in the profession, a summary of their contributions to their respective UPE chapters and related student activities at their college or university. Applicants are also required to submit all college-level transcripts and a recommendation from the UPE faculty adviser.
 
-Received $1,000 scholarhip from UPE national for demonstrating exceptional academic record, extra-curricular activities and strong recommendation from UPE Advisor.
+I received a $1,000 scholarhip from UPE national for demonstrating exceptional academic record, extra-curricular activities and having a strong recommendation from my UPE chapter Advisor.
 
 {{< /accordion >}}
 
 {{< accordion "Computer Science Wang NSF REU" >}}
 
-Received $1,500 scholarship to perform research on applying graph neural networks to protein modification prediction with UCLA Scalable Analytics Institute lab and Berkeley Toste lab.
+I received a $1,500 scholarship to perform research on applying graph neural networks to protein modification prediction with UCLA Scalable Analytics Institute lab and Berkeley Toste lab.
 
 {{< /accordion >}}
 
 {{< accordion "MIT Climate & Energy Prize" >}}
 
-Accepted into startup competition.
+I worked part-time with SISYPHUS Global Systems while doing full-time school during my sophomore year. At the time, the company wanted to participate in as many startup accelerators as possible to get more funding and spread the name of the company.
+
+MIT's Climate & Energy Prize (MIT CEP) is the world's longest running and largest climatetech startup competition for university students. Many alumni of the program have successfully launched companies and with the MIT branding and monetary prizes, SISYPHUS say this as a perfect opportunity to secure funding, mentorship, and advertising.
+
+I helped SISYPHUS organize an application package to MIT CEP, outlining our mission, product, recent success, and plans. With this, SISYPHUS was accepted into the competition and began the virtual rounds where MIT CEP judges selected the best business plans to move to the regional semi-finals. At this point, I handed off the task to a more capable member of the SISYPHUS team since I had no formal business background, and they did.
 
 {{< /accordion >}}
 
-{{< accordion "2021 Call for Code Global Challenge" >}}
+{{< accordion "IBM Call for Code Global Challenge ( NA regional finalist )" >}}
 
-One of five regional finalist in North America.
-
-{{< button label="Feature" link="https://developer.ibm.com/callforcode/solutions/2021-solutions/#regionalfinalists" style="solid" >}}
+With other staff members of SISYPHUS Global Systems, I participated in IBM's 2021 Call for Code Global Challenge. We worked on our web-portal product that utilizes ArcGIS maps and WebXR to provide users an immersive augmented reality experience of assessing their property’s flood risk and viewing their city’s green and grey infrastructure. Throughout the months of the hackathon, I helped integrate various IBM software into the product's system architecture and improved the MVP. Near the end of the challenge, I assembled a GitHub repository to showcase all the work my team has done to submit to the judges. When the results came in, my team was [recognized](https://developer.ibm.com/callforcode/solutions/2021-solutions/#regionalfinalists) as one of five regional finalists for North America.
 
 {{< /accordion >}}
 
-{{< accordion "2021 Verizon & CGI U Social Innovation Challenge" >}}
+{{< accordion "Verizon & CGI U Social Innovation Challenge ( 1st )" >}}
 
-Beat 12 startups in startup accelerator.
-
-{{< button label="Article Mention" link="https://venturewell.org/pitch-competitions-2/" style="solid" >}}
+I participated in VentureWell, Verizon, and CGI U's startup accelerator program in 2021 as a representative for SISYPHUS Global Systems. There, I worked with the SISYPHUS team to organize a product pitch and presented it to Clinton Foundation Vice Chair Chelsea Clinton, Verizon representative Nicki Palmer, and VentureWell CEO Phil Weilerstein. Despite initial fears of not being good enough to beat the other startups, the product pitch my team gave was much stronger than that of our peers. My team beat the 12 other startups in the program and secured SISYPHUS a slot in VentureWell’s second phase of the E-Team program. We also received a [shoutout](https://venturewell.org/pitch-competitions-2/) from VentureWell on their website!
 
 {{< /accordion >}}
 
-{{< accordion "IBM AI Spot Challenge" >}}
+{{< accordion "IBM AI Spot Challenge ( 2nd )" >}}
 
-2nd place
+IBM's [Call for Code: AI Spot Challenge](https://community.ibm.com/community/user/ai-datascience/blogs/julianna-delua/2021/07/26/announcing-call-for-code-ai-spot-challenge-for-a-s) was a 2-day hackathon that is part of the larger Call for Code Global Challenge. The purpose of this hackathon was for developers to build and contribute to sustainable, open-source technology projects that make our planet safer using cloud and AI tools. I participated in this hackathon with staff members of SISYPHUS Global Systems. 
+
+We utilized a hybrid data-management strategy. We tested multiple supervised machine learning algorithms using the Cloud Pak Auto AI service with our ground-up built dataset. We also explored Watson Studio & Cloud Pak for future unsupervised ML (e.g., dimensionality reduction) with our multi-cloud data platform. We can scale the data architecture across government, professional and community stakeholders for needed capabilities to drive smarter mitigation planning decisions and prioritize project implementation. Our aim was to reliably predict the flood risk associated with properties in New Orleans (our pilot city for this project) and deliver the results to different stake holders (homeowners, government officials etc.) in an interactive manner combining the power of machine learning/AI and augmented reality.
+
+Through this hackathon, we took the first step towards completing the back-end code to enable automated predictions of flood risk for individual properties. Since we were not at liberty to release data from individual properties, we aggregated the data according to census blocks. We used a test dataset describing various attributes (land use, water area, tree count, number of buildings, repetitive flood loss, etc.) of these census blocks to predict the FIRM score---a "flood insurance rating" issued by the Federal Emergency Management Agency (FEMA), with a high FIRM score indicating a high flood risk.
+
+After [repository](https://github.com/uqktiwar/IBM_SpotAI_SISYPHUS) got evaluated, we were granted 2nd place and a [shoutout](https://community.ibm.com/community/user/ai-datascience/blogs/julianna-delua/2021/08/24/and-call-for-code-ai-spot-challenge-grand-prize-go) on IBM's community page. You'll notice that my name is not on the list of members on SISYPHUS's team. This is because I did not officially register for the hackathon since we thought we had already hit the member limit.
 
 {{< /accordion >}}
 
-{{< accordion "IBM Code Engine Challenge" >}}
+{{< accordion "IBM Code Engine Hackathon ( 2nd )" >}}
 
-2nd place
+IBM's [Call for Code: Code Engine Hackathon](https://developer.ibm.com/events/call-for-code-code-engine-hackathon/) was a 2-day hackathon that is part of the larger Call for Code Global Challenge. In this hackathon, teams were expected to integrate IBM's Cloud Code Engine---a fully managed, serverless platform that runs containerized workloads, including web apps, microservices, event-driven functions, or batch jobs---into a product that fights climate change.
+
+I participated in this hackathon with staff members of SISYPHUS Global Systems and worked to integrate the Cloud Code Engine service into the system architecture of SISYPHUS's web-portal product. This was the bulk of my team's work during the hackathon as beyond this, we just made small improvements to our product to demonstrate that we are making progress as the Call for Code Global Challenge progresses. After the judges analyzed our [repository](https://github.com/trungvu08/SISYPHUS_GLOBAL_SYSTEMS), my team was rewarded 2nd place in the hackathon.
 
 {{< /accordion >}}
 
-{{< accordion "Howard Hackathon for Environmental Justice" >}}
+{{< accordion "Howard Hackathon for Environmental Justice ( 2nd )" >}}
 
-2nd place
-
-Participated in IBM's Call for Code University Challenge: Howard Hackathon for Environmental Justice as a member of Global Flood Equity Extended Reality (later reorganized as SISYPHUS Global Systems). Worked along 4 other team members to develop the beta version of an interactive web-portal that calculates flood risk of individual properties and its optimum flood mitigation from a GIS platform with a focus on environmental justice and equity.
-
-{{< button label="Video Shoutout" link="https://www.businessinsider.com/us-risks-climate-apartheid-if-grassroots-ideas-ignored-activist-says-2021-4" style="solid" >}}
+I participated in IBM's Call for Code University Challenge: Howard Hackathon for Environmental Justice as a member of Global Flood Equity Extended Reality (later reorganized as SISYPHUS Global Systems). I worked alongside 4 team members to develop the beta version of an interactive web-portal that calculates flood risk of individual properties and its optimum flood mitigation from a GIS platform with a focus on environmental justice and equity. My team ended winning 2nd place and got a [shoutout](https://www.businessinsider.com/us-risks-climate-apartheid-if-grassroots-ideas-ignored-activist-says-2021-4) on a Business Insider podcast.
 
 {{< /accordion >}}
