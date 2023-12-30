@@ -56,7 +56,7 @@ To get a better visual understanding of what was just described along with a mor
 {{< button label="GitHub" link="https://github.com/trungvu08/uniquenesstest" style="solid" >}}
 {{< button label="Demo" link="https://trunghvu.com/uniquenesstest/" style="solid" >}}
 
-Tags: ReactJS
+Tags: ReactJS, GitHub Pages
 
 I started this personal project because I was motivated to apply my computer science skills to develop something people will actually use. At the time, I was developing a workshop for Southeast Asian Admit Weekend (SEA ADMIT) with my friend [Nathan Nguyendinh](https://www.linkedin.com/in/nathan-nguyendinh/) and we were looking for an icebreaker activity to use. We didn't want to have a boring, generic icebreaker, but we also wanted to respect the rules of SEA ADMIT and stay PG. I remembered how high schoolers and college students like doing the [Rice Purity test](http://ricepuritytest.com/) and comparing scores. As such, I suggested that the icebreaker should be a family-friendly version of the Rice Purity test and volunteered to create one using the skills I learned from other personal projects and coursework. 
 
@@ -84,7 +84,14 @@ Wrapping this up, this was the simplest project I'd ever created. However, I fou
 
 Tags: SystemVerilog, FPGA, VGA
 
-System that visualizes frequencies of audio signals on VGA monitor with SystemVerilog and an FPGA. I also recreated the Flappy Bird video game where users control bird movement using FPGA.
+I worked on this project during my sophomore year with my roommate [Christopher Jayadi](linkedin.com/in/christopher-jayadi) and two other UCLA students. Digital Audio Visualizer (DAV) involved working with the DE10-LITE FPGA and constructing various mini-projects such as a calculator, piano, Flappy Bird, and an audio signal frequency visualizer.
+
+I learned how to program in SystemVerilog to complete these projects and utilized Quartus Prime to write, compile, and analyze my code, run simulations, and program the DE10-LITE FPGA. I also learned how to use the various components of the DE10-LITE FPGA such as the microphone and 7-segment display. Additionally, I learned how to display to a VGA monitor and realized how many issues there are with doing so such as pin assignment, clock signal, sync signals, resolution mismatch, etc. With SystemVerilog being my first hardware description language (HDL), The processes of learning how to program with it was quite bumpy. I had to orient my mind in a different way since all the code is running in parallel. After figuring out the syntax and how to "think in SystemVerilog", I was able to get the hang of HDL programming and complete the projects.
+
+I would say that while creating the design itself is hard, creating the testbench and figuring out all the cases to test is even more difficult. It was easy to develop test cases that covered the common cases, but creating tests for the edge cases took more time to think of. Thankfully, my team worked together and helped one another fill in any gaps that may have been missed.
+
+Overall, I would say that doing DAV with my team was a fun and rewarding experience. UCLA's Computer Science and Engineering major is a blend between computer science and electrical engineering, but the major coursework doesn't have many opportunities for CSE students to work with HDLs and FPGAs. DAV helped me learn to program in SystemVerilog and work with FPGAs which helped significantly when I took a major course that involved FPGA programming with Verilog. The experience I gained from working with VGA monitors was especially useful.
+
 <hr>
 
 ## Wordle PLUS
@@ -93,9 +100,28 @@ System that visualizes frequencies of audio signals on VGA monitor with SystemVe
 {{< button label="GitHub" link="https://github.com/trungvu08/Wordle-PLUS" style="solid" >}}
 <!-- {{< button label="Demo" link="/" style="solid" >}} -->
 
-Tags: ReactJS, MongoDB, NodeJS, ExpressJS
+Tags: ReactJS, MongoDB, NodeJS, ExpressJS, Python, Bash
 
-Remake of popular web-based word game Wordle using MERN stack. Builds on Wordle by allowing game to be played with 4, 5, or 6 letter words and giving unlimited plays a day with a random word each time.
+Wordle PLUS is a remake and improvement to the web-based word word game, Wordle, which was very popular in 2021 and 2022. The project improved on Wordle by allowing users to play the game with 4, 5, or 6 letter words and giving unlimited plays a day with a random word each time. Additionally, Wordle PLUS includes a score-based leaderboard to add a competitive element to the game. I worked on this project with 4 other UCLA students.
+
+To create this full-stack web application, my group opted to use the MERN stack (MongoDB, ExpressJS, ReactJS, and NodeJS). MongoBD is a NoSQL database management system which held the username and score of each Wordle PLUS player. ExpressJS is a NodeJS framework that provides utility for building web applications and served as our backend framework. ReactJS is a front-end library and was used to build our web app's user interface (UI). NodeJS is a server-side JavaScript runtime that allows users to run code on the server.
+
+When approaching this project, my groups split into 3 teams: Leaderboard, Game Core, and UI. As the names suggest, each team oversaw one primary component of Wordle PLUS---creating the leaderboard, implementing the game logic, and creating a UI. The split was 1:3:1 for the teams respectively, with me being assigned to the Leaderboard team.
+
+Before I started tackling my assigned tasks, I created the word bank for the Game Core team. This involved using Bash to get a dictionary of words from the web and Python to filter the dictionary and create three files containing words of 4, 5, and 6 letter length. This wasn't particularly difficult since I worked with Bash before, and Python has great documentation.
+
+With this done, I proceeded to develop the leaderboard. Thinking of how I wanted the leaderboard to look was not hard, and had I known how to program in React well, creating the leaderboard would have been very easy. Unfortunately, I had not programmed in React before this, so it was hard to figure out which methods to call and get the outcome I wanted. After lots of Googling and experimentation, I developed a leaderboard that listed a player's username, score, and game mode played in numerical order. Additionally, I implemented buttons that would filter the scoreboard to only display player information from a specific game mode. I validated my leaderboard using local data I generated since the MongoDB database was not setup yet. Having completed this, I proceeded to set up the database and modified my code to read data from MongoDB rather than my local test data.
+
+Since my portion of the project was done, I went on to help the other teams. The UI team finished around when I did without any complications, so we both went to help the Game Core team. Despite having 3 members, the Game Core team was having issues completing their tasks. More specifically, they were not able to send player information as such the username, game mode played, and score to MongoDB and did not know how to pull words from the word bank for each iteration of the game. Since I gained some experience on receiving data from MongoDB, I figured that I'm best suited to write the code to send data to MongoDB. After lots of Googling and experimentation, I was able to use ExpressJS and Axios to send all the player information to MongoDB. With that handled, I helped the team debug their code to successfully pull a random word from the word bank for each new iteration of the game.
+
+Once each team completed their respective tasks, we ensured that all the code merged properly. Since we communicated well throughout the entire process and did incremental checks to ensure each team's code mixed well together, we did not have any major issues here. With that, we successfully completed the project and have a working version of Wordle PLUS.
+
+Although I was not directly working on some components of Wordle PLUS, I was still able to learn a lot about ReactJS and CSS since the group had weekly meeting where we did code reviews and helped each other improve our implementations. In fact, I really needed to master ReactJS since I had to understand the code I was working with when helping the Game Core team send player information to MongoDB.
+
+All in all, completing this project with my group allowed me to learn how to do full stack development and work well in a team. Prior to this project, most of my experience was working on solo projects where I was responsible and had complete control over everything. This project taught me to trust and rely on others and communicate to fill in any knowledge gaps.
+
+Wordle PLUS is not currently hosted online. If you are interested in playing the game, you will need to clone our [repository](https://github.com/trungvu08/Wordle-PLUS) and follow the instructions in the README to run the game locally. The MongoDB account created to store the data for Wordle PLUS is no longer active, so the leaderboard unfortunately does not work if you play the game now. I might work to host the game and reactivate the MongoDB account to have the leaderboard working again.
+
 <hr>
 
 ## Fitness Form Protection Tool
