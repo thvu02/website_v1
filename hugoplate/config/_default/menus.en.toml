@@ -22,24 +22,9 @@ url = "projects/"
 weight = 4
 
 [[main]]
-weight = 5
-name = "More"
-hasChildren = true
-
-[[main]]
-parent = "More"
-name = "Blog"
-url = "blog/"
-
-[[main]]
-parent = "More"
-name = "Categories"
-url = "categories/"
-
-[[main]]
-parent = "More"
 name = "Hobbies"
 url = "hobbies/"
+weight = 5
 
 # footer menu
 [[footer]]

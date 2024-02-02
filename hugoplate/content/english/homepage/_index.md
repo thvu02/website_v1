@@ -7,10 +7,10 @@ banner:
   button:
     - enable: true
       label: "Resume"
-      link: "https://drive.google.com/file/d/1-ZE8-4nPMCu5_FR5dDiK_Vzc78oq-JXQ/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1MTHZRhlZE1osg73NJN8m9JpkPqYoyWdj/view?usp=sharing"
     - enable: true
       label: "CV"
-      link: "https://drive.google.com/file/d/11Z4iDPWNX33jkc1mqbHbUpiXEKSGOhlY/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1Wx1Jc_1fmYaq2Ec1O1JtLIMJa3kydEmm/view?usp=sharing"
 
 # Features
 features:
