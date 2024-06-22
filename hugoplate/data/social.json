@@ -3,12 +3,12 @@
     {
       "name": "linkedin",
       "icon": "fab fa-linkedin",
-      "link": "https://linkedin.com/in/trungvu08"
+      "link": "https://linkedin.com/in/thvu02"
     },
     {
       "name": "github",
       "icon": "fab fa-github",
-      "link": "https://github.com/trungvu08"
+      "link": "https://github.com/thvu02"
     },
     {
       "name": "instagram",
@@ -23,7 +23,7 @@
     {
       "name": "email",
       "icon": "fas fa-envelope",
-      "link": "mailto:trungvu08@ucla.edu"
+      "link": "mailto:trunghvu02@gmail.com"
     }
   ]
 }

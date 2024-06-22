@@ -193,7 +193,7 @@ I am currently taking a break from being a Workshop Facilitator and Mentor since
 {{< accordion "Vietnamese Culture Night" >}}
 
 Position: Fiscal Committee Member  
-Dates: Sep 2023 - Present
+Dates: Sep 2023 - Jan 2024
 
 [Vietnamese Culture Night](https://www.instagram.com/uclavcn/?hl=en) (VCN) is an annual student production by UCLA's [Vietnamese Student Union](https://vsubruins.com/) done in Royce Hall to highlight the experiences of Vietnamese Americans. The production is generally a play with performances from Vietnamese Tradition Dance, Awechords Acapella, VSU Modern, and Vietnamese Moditional Dance. VCN is free for everyone to attend, but the costs to run the program is anything but free. From renting Royce Hall, hiring Royce staff, buying dance team outfits, printing itineraries, and etc., there is a serious amount of money that needs to be raised in order to make VCN happen. This is where the Fiscal Committee comes in.
 
@@ -201,14 +201,12 @@ As a member of VCN's Fiscal Committee, I primarily focus on managing and budgeti
 
 I also serve as a flex member between the different teams within the Fiscal Committee (management, inreach, outreach), providing any support I can whenever needed. For example, I helped out with baking pandan waffles when the inreach committee hosted a Vietnamese coffee and pandan waffle fundraiser. I honestly wasn't expecting to be baking waffles. I imagined I'd be manning the table and selling the coffee and waffles since I was not person who spent the days before the fundraiser experimenting to perfect the correct oil, egg, water, and mix ratios. But life always throws curveballs and after some trial and error (I did not sell the failed waffles), I got the ratios down and was baking some tasty pandan waffles. For 3-4 hours, I was pumping out as many pandan waffles as I could with the help of VCN's director, Tracy Tran. It was honestly stressful because we had three waffle irons that all baked at different rates despite being on the same setting. Keeping track of when each waffle would be done baking was a struggle, but after some time, we got the hang of it and it felt like second nature. This fundraising brought in a few hundred bucks which was great!
 
-VCN for this school year is happening on January 15th, 2024, and we still need money! The money we hoped to receive from grants is much less than anticipated and while our fundraisers are helping us cover costs, it is simply not enough. VCN is funded primarily through crowdsourcing. For example, we hosted a Spark Campaign fundraiser during the Fall quarter which raised about $14,500. The campaign ended in November, but we are still accepting donations! If you are feeling generous or looking to support a good cause, please consider donating to support VCN! You can view our [Spark Campaign page](https://spark.ucla.edu/project/38962) to learn more about VCN and donate to VCN by clicking this [link](https://giving.ucla.edu/VietnameseCultureNight) or the one on the campaign page.
-
 {{< /accordion >}}
 
 {{< accordion "Vietnamese Traditional Dance" >}}
 
 Position: Dance Team Member   
-Dates: Oct 2022 - Present
+Dates: Oct 2022 - Jan 2024
 
 When I attended VCN during my sophomore year, I came in halfway through the program because I had to finish homework for COM SCI 35L: Software Construction. After some struggle, I was able to pick up what was happening in the play and enjoy the remainder of it. I was deeply moved by the story and applied the lessons told from that story to my life. When I think of VCN though, what comes to mind is the Vietnamese Traditional Dance team and all the bright, vibrant colors from the ao dai and the rice hats moving in harmony to create beautiful images. I wanted to be part of this team and be the one who creates the beautiful images I remember seeing when attending VCN. Additionally, I wanted to get more in touch with my roots as it was something I had not prioritized all my life. I hoped being part of the team and learning traditional dance would allow me to develop a stronger connection to Vietnamese culture and history.
 

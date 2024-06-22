@@ -3,7 +3,7 @@
 banner:
   title: "Trung's Website"
   content: "Learn everything about me from my professional career, extracurriculars, side projects, hobbies, and etc."
-  image: "/images/myimages/seaadmit.JPG"
+  image: "/images/myimages/grad.jpg"
   button:
     - enable: true
       label: "Resume"
@@ -18,8 +18,8 @@ features:
     image: "/images/myimages/grouposprey.JPG"
     content: "Click the button to get a short overview of who I am!"
     bulletpoints:
-      - "UCLA Undergraduate Student"
-      - "Computer Science and Engineering Major"
+      - "Cal Poly Pomona Grad Student"
+      - "Computer Science and Engineering B.S. @ UCLA"
       - "Current Involvements"
       - "Interests / Passions"
     button:
