@@ -7,7 +7,7 @@ banner:
   button:
     - enable: true
       label: "Resume"
-      link: "https://drive.google.com/file/d/1MTHZRhlZE1osg73NJN8m9JpkPqYoyWdj/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1o73jQmkBAjEYEY1cwjXG5f2Q6kMu9RoH/view?usp=sharing"
     - enable: true
       label: "CV"
       link: "https://drive.google.com/file/d/1Wx1Jc_1fmYaq2Ec1O1JtLIMJa3kydEmm/view?usp=sharing"
