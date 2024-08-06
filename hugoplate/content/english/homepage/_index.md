@@ -10,7 +10,7 @@ banner:
       link: "https://drive.google.com/file/d/1mfl1RNWzr8LyEelfW1s2IhBGy0cKBz-M/view?usp=sharing"
     - enable: true
       label: "CV"
-      link: "https://drive.google.com/file/d/1Wx1Jc_1fmYaq2Ec1O1JtLIMJa3kydEmm/view?usp=sharing"
+      link: "https://drive.google.com/file/d/1kuP6RMTH01pOtsX_pHxEUGePWb7GI2Ln/view?usp=sharing"
 
 # Features
 features:
