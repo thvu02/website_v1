@@ -19,11 +19,12 @@ draft: false
 Position: Cybersecurity R&D Intern  
 Dates: Jun 2023 - Present
 
-I started my journey with [Sandia National Laboratories](https://www.sandia.gov/) as a summer Cybersecurity R&D intern. For 10 weeks in Albuquerque, New Mexico, I worked on two projects: operational technology (OT) network activity analysis and browser exploits. For the first project, I used unsupervised learning techniques such as clustering and decision trees to pinpoint what traits constitute malicious MODBUS behavior. MODBUS is a communication protocol commonly used by OT devices. Taking that understanding, I attempted to write rules on Splunk that would automatically flag suspicious network activity and generate summary reports. For the second project, I first looked into a zero-day exploit called patch gapping that was used on Chromium to build a firm understanding of how Chromium's V8 Engine worked. From there, I proceeded to analyze HAR data to find browser exploit indicators and also worked to determine if browser isolation can protect users from zero-day exploits.
+I started my journey with [Sandia National Laboratories](https://www.sandia.gov/) as a summer Cybersecurity R&D intern. For 10 weeks in Albuquerque, New Mexico, I worked on two projects: operational technology (OT) network activity analysis and browser exploits. For the first project, I used unsupervised learning techniques such as clustering and decision trees to pinpoint what traits constitute malicious MODBUS behavior. MODBUS is a communication protocol commonly used by OT devices. Taking that understanding, I attempted to write rules on Splunk that would automatically flag suspicious network activity and generate summary reports. For the second project, I investigated a zero-day exploit called patch gapping that was used on Chromium to build a firm understanding of how Chromium's V8 Engine worked. From there, I proceeded to analyze HAR data to find browser exploit indicators and worked to determine if browser isolation can protect users from zero-day exploits.
 
-At the end of summer, I converted to a year-round Cybersecurity R&D intern where I remotely continuing working on the OT project. I wanted to continue working on both projects, but year-round interns can only work on one project since Sandia wants interns to focus on school (rightfully so). At the moment, I'm still working on the writing rules on Splunk to flag suspicious network activity. However, I'm also taking up some additional responsibility as I get to work on writing Python scripts that aggregate Sandia's IT and OT device inventory datasets to provide enriched and more accesible device information for Sandia staff.
+I transferred to Sandia’s California site the next summer where I continued working on my OT project and started a new project for a [DHS]( https://www.dhs.gov/) client. For the OT project, I continued writing Splunk alerts to flag suspicious network activity, but I also began developing Python scripts to aggregate Sandia’s IT and OT device inventory datasets to provide enriched and more accessible data for Sandia’s incident responders. For the DHS project, I designed dashboards to aggregate risk and visibility assessment data from various clients and developed those dashboards using HTML and CSS.
 
-I can't provide more details about the work I do for security reasons. But, I'd be more than happy to talk about living in Albuquerque and the Center for Cyber Defenders (CCD) internship program in general. Interning at Sandia is a great way to enter cybersecurity and I recommend those interested in the field to apply!
+I landed my internship with Sandia without any cybersecurity knowledge, and I’ve been able to learn a lot through the company. If you have any interest in breaking into cybersecurity, consider applying for the Center for Cyber Defenders (CCD) internship program! Interning at Sandia is a great way to enter cybersecurity and having their name on your resume will greatly increase your odds of working at any other national laboratory.
+
 
 {{< /accordion >}}
 
@@ -40,7 +41,7 @@ Using CMIP6 data from ESGF, I determined there exists a large variance between d
 
 With a strong training dataset, I developed a DNN using PyTorch and trained it using the ensemble to the point where it can affirm ongoing warming acceleration and predict when a 2.0-2.5°C warming (a “tipping point” in climate change) will occur. The work I produced from this internship allowed me to have the 2nd best presentation out of all other JSIP interns for our final presentations.
 
-This internship opportunity was achieved through [<u>UCLA's Joint Institute for Regional Earth and System Science & Engineering</u>](https://jifresse.ucla.edu/) (JIFRESSE) which is a scientific collaboration between UCLA and JPL. I encourage all those interested in tackling climate change to explore this opportunity!
+This internship opportunity was achieved through [UCLA's Joint Institute for Regional Earth and System Science & Engineering](https://jifresse.ucla.edu/) (JIFRESSE) which is a scientific collaboration between UCLA and JPL. I encourage all those interested in tackling climate change to explore this opportunity!
 
 {{< /accordion >}}
 
@@ -85,16 +86,15 @@ Preliminary results dictated that the GNN is not able to effectively predict sit
 {{< accordion "UCLA Samueli School of Engineering" >}}
 
 Position: Group Tutor and Researcher  
-Dates: Sep 2021 - Present
+Dates: Sep 2021 - Jun 2024
 
-- Taught: Fall 21, Spr 22, Fall 22, Fall 23       
-- Will be teaching: Spr 24
+- Taught: Fall 21, Spr 22, Fall 22, Fall 23, Spr 24    
 
-After taking the course in winter quarter 2021, I joined the teaching staff of Engineering 96i: Internet of Things as a Group Tutor in fall quarter 2021. As a Group Tutor, I assist Professor William Kaiser in teaching over 150 students how to develop IoT motion detection functionality using the STMicroeletronics SensorTile and EmbeddedML Neural Network. More specifically, I teach students about C programming, the STM32L4 microprocessor on the [<u>STMicroelectronics SensorTile,</u>](https://www.st.com/en/evaluation-tools/steval-stlkt01v1.html#st_description_sec-nav-tab) and machine learning. This is to have them develop a solid foundation on which they can begin developing their own IoT motion detection device using the SensorTile's accelerometer and gyroscope. As students develop their own projects, I help them debug code and provide insight on how to expand the neural network to realize their project ideas.
+After taking the course in winter quarter 2021, I joined the teaching staff of Engineering 96i: Internet of Things as a Group Tutor in fall quarter 2021. As a Group Tutor, I assist Professor William Kaiser in teaching over 150 students how to develop IoT motion detection functionality using the STMicroeletronics SensorTile and EmbeddedML Neural Network. More specifically, I teach students about C programming, the STM32L4 microprocessor on the [STMicroelectronics SensorTile,](https://www.st.com/en/evaluation-tools/steval-stlkt01v1.html#st_description_sec-nav-tab) and machine learning. This is to have them develop a solid foundation on which they can begin developing their own IoT motion detection device using the SensorTile's accelerometer and gyroscope. As students develop their own projects, I help them debug code and provide insight on how to expand the neural network to realize their project ideas.
 
 Beyond Engineering 96i, I also assist Professor Kaiser in teaching Engineering 96c: Cybernetics by tutoring students in robotic control systems and teaching them how to use MATLAB. After giving students enough background knowledge, I guide them in developing their own cybernetics project. Unfortunately, this course isn't being offered anymore.
 
-Outside the classroom, I am working to refine Engineering 96i. More specifically, I am reviewing the current tutorials being used for the course to identify points where clarity can be improved and patch inconsistencies. I am also compiling a comprehensive course guidebook with tutorial solutions and insightful hints that course instructors and Group Tutors can utilize to better and more easily help students. Furthermore, I am developing and testing learning modules using the [<u>B-U585I-IOT02A IoT node</u>](https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html#) for future adaptation into the course since this IoT device will be replacing the SensorTile.
+Outside the classroom, I am working to refine Engineering 96i. More specifically, I am reviewing the current tutorials being used for the course to identify points where clarity can be improved and patch inconsistencies. I am also compiling a comprehensive course guidebook with tutorial solutions and insightful hints that course instructors and Group Tutors can utilize to better and more easily help students. Furthermore, I am developing and testing learning modules using the [B-U585I-IOT02A IoT node](https://www.st.com/en/evaluation-tools/b-u585i-iot02a.html#) for future adaptation into the course since this IoT device will be replacing the SensorTile.
 
 Joining the Engineering 96i teaching staff was one of the best decisions I've made at UCLA as it allowed me to combine my passions of tech and service. Tutoring for multiple iterations of the course over the past 2 years, I feel great satisfaction helping students build their skillsets and develop projects they can highlight during interviews. Alongside teaching, I'm proud of the technical accomplishments I've made towards improving the course. Using the draft course guidebook I compiled over summer, the Group Tutors this fall quarter complimented on how it allowed them to better help students and quickly identify solutions to the issues students were facing. With the R&D I'm doing with the new IoT node, I hope to contribute major refinements to the course material so students at UCLA and other education institutions which use this material for their own IoT courses have an even better experience when taking the course.
 
@@ -143,7 +143,7 @@ All in all, I received a lot from participating in this startup accelerator. I k
 {{< accordion "Upsilon Pi Epsilon (CS Honors Society)" >}}
 
 Position: External Vice President  
-Dates: Sep 2021 - Present
+Dates: Sep 2021 - Jun 2024
 
 - Prev: Entrepreneurship Chair, Entrepreneurship Intern
 
