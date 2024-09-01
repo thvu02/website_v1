@@ -10,23 +10,49 @@ draft: false
 
 {{< toc >}}
 
+## Bowling Bro
+{{< image src="images/myimages/bowlingball.JPG" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+
+{{< button label="GitHub" link="https://github.com/thvu02/BowlingBro" style="solid" >}}
+
+Tags: Python, OCR, Flask 
+
+This is a passion project I'm trying to tackle with my friend [Jarred Siriban](https://github.com/jjarrreddd) to benefit our bowling group and any other passionate bowling enthusiast. There's not much progress on it since we're both busy, but it will get done eventually. The goal is to have a web application that can calculate the bowling score of any valid combination of frames and to submit and track game records so individuals can see their bowling progression and high scores. Additionally, we want the web application to track and provide statistics of a user's performance, so they can monitor their improvement over time.
+
+To achieve this, we will be using Flask to develop our web application and use optical character recognition (OCR) with PyTesseract to read bowling scores from an image. Since this is a dynamic website and we cannot host it on GitHub like my other projects, we might host this project using AWS. I heard that the price isn't that bad compared to other options. In all honestly, the tech stack still isn't decided since we're just trying to get the OCR working properly before even starting to do anything else, so what we decide to use for our tech stack could very well change.
+
+<hr>
+
 ## Personal Website (this)
 {{< image src="images/myimages/personalWebsite.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
 
-{{< button label="GitHub" link="https://github.com/trungvu08/trungvu08.github.io" style="solid" >}}
+{{< button label="GitHub" link="https://github.com/thvu02/thvu02.github.io" style="solid" >}}
 {{< button label="Demo" link="https://trunghvu.com/" style="solid" >}}
 
 Tags: Hugo, Tailwind CSS, GitHub Pages, NodeJS, GO, PostCSS, PurgeCSS, AutoPrefixer, Hugo Modules, Markdown, Prettier, Jshint
 
 My own website created with Hugo and TailwindCSS using an open-source template and hosted on GitHub Pages.
 
-Creating a personal website is not only great for marketing, but it's also just great for getting more expereince with different languages and frameworks quickly. I became interested in building a website after my intern buddy, Mihir, convinced me to buy a custom domain. I bought the domain through Google Domains for $12/yr (and hope it'll stay at that price), but since Squarespace acquired Google Domains in Sep 2023, I don't know if they'll mark up the price. Anyways, I didn't want to create the website from scratch because I have no artistic/design ability, so I looked for a template to use. I went through two templates from two of the most popular static site generators, [Jeykll](https://jekyllrb.com/) and [Hugo,](https://gohugo.io/) and found a nice template on Hugo. There are tradeoffs to using either Jekyll or Hugo, but both are easy to get into and for my purposes, the tradeoffs aren't a big deal. This [article](https://draft.dev/learn/hugo-vs-jekyll) sums up the tradeoffs quite well.
+Creating a personal website is not only great for marketing, but it's also just great for getting more experience with different languages and frameworks quickly. I became interested in building a website after my intern buddy, Mihir, convinced me to buy a custom domain. I bought the domain through Google Domains for $12/yr (and hope it'll stay at that price), but since Squarespace acquired Google Domains in Sep 2023, I don't know if they'll mark up the price. Anyways, I didn't want to create the website from scratch because I have no artistic/design ability, so I looked for a template to use. I went through two templates from two of the most popular static site generators, [Jeykll](https://jekyllrb.com/) and [Hugo,](https://gohugo.io/) and found a nice template on Hugo. There are tradeoffs to using either Jekyll or Hugo, but both are easy to get into and for my purposes, the tradeoffs aren't a big deal. This [article](https://draft.dev/learn/hugo-vs-jekyll) sums up the tradeoffs quite well.
 
-One of the pros of using a template is that you don't need to develop from scratch. That being said, one of the cons is you are given a large codebase with lots of files you don't understand. The template I found was nice, but it didn't have lots of documentation on how to use it. I was adding/deleting code here and there to slowly figure out what was connected to what, but I ultimately decided to do some tutorials and learn how Hugo worked. The tutorials by [Magsther](https://medium.com/@magstherdev/github-pages-hugo-86ae6bcbadd) and [4BES.NL](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/) were quite helpful. With that, I became modifying the template to fit my needs and got my website up and running. I hosted it on [GitHub Pages](https://pages.github.com/) because its free. GitHub Pages automatically builds your site when you push changse to your repo, so that created less hassle for me. To serve my site from my custom domain rather than GitHub's default of user_name.github.io, I modified the repo settings and also did some configuration on Google Domains. This [GitHub article](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) summarizes the process quite well.
+One of the pros of using a template is that you don't need to develop from scratch. That being said, one of the cons is you are given a large codebase with lots of files you don't understand. The template I found was nice, but it didn't have lots of documentation on how to use it. I was adding/deleting code here and there to slowly figure out what was connected to what, but I ultimately decided to do some tutorials and learn how Hugo worked. The tutorials by [Magsther](https://medium.com/@magstherdev/github-pages-hugo-86ae6bcbadd) and [4BES.NL](https://4bes.nl/2021/08/29/create-a-website-with-hugo-and-github-pages/) were quite helpful. With that, I became modifying the template to fit my needs and got my website up and running. I hosted it on [GitHub Pages](https://pages.github.com/) because its free. GitHub Pages automatically builds your site when you push changes to your repo, so that created less hassle for me. To serve my site from my custom domain rather than GitHub's default of user_name.github.io, I modified the repo settings and also did some configuration on Google Domains. This [GitHub article](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site) summarizes the process quite well.
 
-After 2 weeks of having the website, I got bored of the template and it's lack of flexibility, so I moved to a different template called [Hugoplate](https://github.com/zeon-studio/hugoplate). This one had more documentation, support, and flexibility. By modifying certain files, I fit the website to my needs. More specifically, I modified .html files to add more buttons on the homepage so I can link both my resume and CV. I also modified .scss files to prevent overflow text in the Experience page from being clipped. This was actually quite fun because on top of learning how scss worked, I had to use inspect element to figure out how the classname of the parts I wanted to modify the styling of. Beyond this, I modified various .md, .json, and .toml files to change the site layout and add my personal information.
+After 2 weeks of having the website, I got bored of the template and it's lack of flexibility, so I moved to a different template called [Hugoplate](https://github.com/zeon-studio/hugoplate). This one had more documentation, support, and flexibility. By modifying certain files, I fit the website to my needs. More specifically, I modified .html files to add more buttons on the homepage so I can link both my resume and CV. I also modified .scss files to prevent overflow text in the Experience page from being clipped. This was actually quite fun because on top of learning how scss worked, I had to use inspect element to figure out how the class name of the parts I wanted to modify the styling of. Beyond this, I modified various .md, .json, and .toml files to change the site layout and add my personal information.
 
 I don't think there's going to be a point where I just stop improving/developing this website. There's a lot I want to do with it such as utilizing the Blog page. Also, my resume and CV change practically every month, so I need to come back and update links anyways. But yeah, I strongly encourage people to build a personal website. It's fun, useful, and also a cool flex!
+
+<hr>
+
+## Let's Ergo
+{{< image src="images/myimages/letsergo.JPG" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
+
+Tags: Verilog, FPGA, Python
+
+This project was done in collaboration with my Eva Fiedler. Together, we created Let's Ergo: a fall detection and ergonomic system. The product collects data from an accelerometer and gyroscope and opens a specific YouTube video when certain acceleration and angular velocity magnitude thresholds are met.
+
+The motivation behind this project was the fact that the elderly are the most vulnerable group in society. The elderly have more fragile bodies and are more prone to cramping than other age groups. While fall detection systems like Life Alert exist, they are limited in that a user must press a button before emergency services are called. What if a user is unable to press the button after falling? Our product strived to improve upon this limitation by automatically “calling” emergency services (opening a YouTube video) when a fall is detected. Beyond this, a great method to prevent cramping is stretching. Corporate companies have apps installed on all their devices which remind employees to stretch after certain periods of time. Our product does the same for the elderly.
+
+To implement this project, we utilized the BASYS-3 FPGA and its seven-segment display and switches. We also utilized the ACL2 and GYRO PMODs. These components were utilized via a C program that ran on the FPGA. We also concurrently ran a Python script on a laptop to read from the FPGA and open a web browser to play the YouTube videos when necessary.
 
 <hr>
 
@@ -38,7 +64,7 @@ I don't think there's going to be a point where I just stop improving/developing
 
 Tags: Verilog, FPGA, VGA
 
-This project was done in collaboration with my buddies [Annie Xiang](https://www.linkedin.com/in/anniexiang01/) and [Nathan Nguyendinh.](https://www.linkedin.com/in/nathan-nguyendinh/) We created a 2-player game called PONG!. The game was programmed using Verilog through Xilinx ISE and is displayed on a VGA monitor while the scoreboard is displayed on the seven-segment display of the DE10-LITE FPGA. In this game, players compete against each other using paddles to hit a ball into the opponent’s goal. The ball bounces off the top and bottom sides of the VGA monitor. Each player has two buttons to move their paddle up and down. If a player lets the ball enter their goal, the current round ends with the opposing player gaining a point. Both players play up until one player gets 5 points or the game is reset using the RESET button.
+This project was done in collaboration with my buddies [Annie Xiang](https://www.linkedin.com/in/anniexiang01/) and [Nat Nguyendinh.](https://www.linkedin.com/in/nathan-nguyendinh/) We created a 2-player game called PONG!. The game was programmed using Verilog through Xilinx ISE and is displayed on a VGA monitor while the scoreboard is displayed on the seven-segment display of the DE10-LITE FPGA. In this game, players compete against each other using paddles to hit a ball into the opponent’s goal. The ball bounces off the top and bottom sides of the VGA monitor. Each player has two buttons to move their paddle up and down. If a player lets the ball enter their goal, the current round ends with the opposing player gaining a point. Both players play up until one player gets 5 points or the game is reset using the RESET button.
 
 The game is displayed on a VGA monitor and starts upon pressing the START button. Before the START button is pressed, a color gradient is displayed as the start screen. Upon starting the game, two paddles appear on the right and left of the screen and a ball appears in the center of the screen, moving towards a player. Additionally, a scoreboard appears on the seven-segment display starting with 0 points for each player. Player 1 and player 2 can each move their respective paddle using the buttons on external button modules. Each player has a button to move their paddle up, and another button to move their paddle down.
 
@@ -53,14 +79,14 @@ To get a better visual understanding of what was just described along with a mor
 ## Uniqueness Test
 {{< image src="images/myimages/uniquenessTest.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
 
-{{< button label="GitHub" link="https://github.com/trungvu08/uniquenesstest" style="solid" >}}
+{{< button label="GitHub" link="https://github.com/thvu02/uniquenesstest" style="solid" >}}
 {{< button label="Demo" link="https://trunghvu.com/uniquenesstest/" style="solid" >}}
 
 Tags: ReactJS, GitHub Pages
 
-I started this personal project because I was motivated to apply my computer science skills to develop something people will actually use. At the time, I was developing a workshop for Southeast Asian Admit Weekend (SEA ADMIT) with my friend [Nathan Nguyendinh](https://www.linkedin.com/in/nathan-nguyendinh/) and we were looking for an icebreaker activity to use. We didn't want to have a boring, generic icebreaker, but we also wanted to respect the rules of SEA ADMIT and stay PG. I remembered how high schoolers and college students like doing the [Rice Purity test](http://ricepuritytest.com/) and comparing scores. As such, I suggested that the icebreaker should be a family-friendly version of the Rice Purity test and volunteered to create one using the skills I learned from other personal projects and coursework. 
+I started this personal project because I was motivated to apply my computer science skills to develop something people will actually use. At the time, I was developing a workshop for Southeast Asian Admit Weekend (SEA ADMIT) with my friend [Nat Nguyendinh](https://www.linkedin.com/in/nathan-nguyendinh/) and we were looking for an icebreaker activity to use. We didn't want to have a boring, generic icebreaker, but we also wanted to respect the rules of SEA ADMIT and stay PG. I remembered how high schoolers and college students like doing the [Rice Purity test](http://ricepuritytest.com/) and comparing scores. As such, I suggested that the icebreaker should be a family-friendly version of the Rice Purity test and volunteered to create one using the skills I learned from other personal projects and coursework. 
 
-With Nathan's agreement, I began to develop the PG version of the Rice Purity test and called it Uniqueness Test. Uniqueness Test is a simple test that determines the uniqueness of an individual on a scale of 0 to 100. The closer one is to 100, the more unique they are. The closer to 0 one is, the more of an NPC they are. Of course, the test was designed for the purpose of entertainment and is by no means an accurate indication of one's individuality. 
+With Nat's agreement, I began to develop the PG version of the Rice Purity test and called it Uniqueness Test. Uniqueness Test is a simple test that determines the uniqueness of an individual on a scale of 0 to 100. The closer one is to 100, the more unique they are. The closer to 0 one is, the more of an NPC they are. Of course, the test was designed for the purpose of entertainment and is by no means an accurate indication of one's individuality. 
 
 The process of developing this game was actually simple. I created a React project and produced a list of sets to store 100 things Southeast Asian high school students may have done (i.e. joined Key Club, listen to Keshi, etc.). I curated this list mostly independently, but I got stuck after hitting 60 items and consulted my cousins to help me reach 100 items. With the Uniqueness Test being on a scale from 0 to 100, I set each item to represent 1 point and displayed all the items on the screen to the user. When users play the game, they start with 100 points and check all the items that they have done (i.e. went to prom). Each checked box subtracts one point from the initial 100 points and the score the user has after going through all the items is their uniqueness score. After implementing the game locally, I pushed the React project to GitHub Pages so anyone can access it during SEA ADMIT without having to download any pre-requisites.
 
@@ -97,7 +123,7 @@ Overall, I would say that doing DAV with my team was a fun and rewarding experie
 ## Wordle PLUS
 {{< image src="images/myimages/wordlePlus.jpg" caption="" alt="alter-text" height="" width="" position="center" command="fill" option="q100" class="img-fluid" title="image title"  webp="false" >}}
 
-{{< button label="GitHub" link="https://github.com/trungvu08/Wordle-PLUS" style="solid" >}}
+{{< button label="GitHub" link="https://github.com/thvu02/Wordle-PLUS" style="solid" >}}
 <!-- {{< button label="Demo" link="/" style="solid" >}} -->
 
 Tags: ReactJS, MongoDB, NodeJS, ExpressJS, Python, Bash
@@ -120,7 +146,7 @@ Although I was not directly working on some components of Wordle PLUS, I was sti
 
 All in all, completing this project with my group allowed me to learn how to do full stack development and work well in a team. Prior to this project, most of my experience was working on solo projects where I was responsible and had complete control over everything. This project taught me to trust and rely on others and communicate to fill in any knowledge gaps.
 
-Wordle PLUS is not currently hosted online. If you are interested in playing the game, you will need to clone our [repository](https://github.com/trungvu08/Wordle-PLUS) and follow the instructions in the README to run the game locally. The MongoDB account created to store the data for Wordle PLUS is no longer active, so the leaderboard unfortunately does not work if you play the game now. I might work to host the game and reactivate the MongoDB account to have the leaderboard working again.
+Wordle PLUS is not currently hosted online. If you are interested in playing the game, you will need to clone our [repository](https://github.com/thvu02/Wordle-PLUS) and follow the instructions in the README to run the game locally. The MongoDB account created to store the data for Wordle PLUS is no longer active, so the leaderboard unfortunately does not work if you play the game now. I might work to host the game and reactivate the MongoDB account to have the leaderboard working again.
 
 <hr>
 

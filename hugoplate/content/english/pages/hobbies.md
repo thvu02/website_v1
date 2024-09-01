@@ -58,7 +58,7 @@ I've only played mage class for Terraria, but I like playing up close and person
 
 #### Call of Duty
 
-Call of Duty was basically my entire life when COVID-19 hit and school became remote. I never played COD before, so Modern Warfare 2019 was my first COD experience. Every day I'd be grinding the skin challenges so I could get damascus. Once the obsidian challenges came out, I finished it for some of the rifles and smgs, but I coudn't do it for every gun. Watching FaZe Jev do it was enough for me.
+Call of Duty was basically my entire life when COVID-19 hit and school became remote. I never played COD before, so Modern Warfare 2019 was my first COD experience. Every day I'd be grinding the skin challenges so I could get damascus. Once the obsidian challenges came out, I finished it for some of the rifles and smgs, but I couldn't do it for every gun. Watching FaZe Jev do it was enough for me.
 
 As weird as it sounds, I think Call of Duty was a huge part of me becoming more extroverted. I never shit talked because I just couldn't think of comebacks quick enough, especially when all people say are derogatory remarks and there's no civil response for that. Nevertheless, I think being in that environment just made me less afraid of people. 
 

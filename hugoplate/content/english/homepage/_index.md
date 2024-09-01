@@ -1,25 +1,25 @@
 ---
 # Banner
 banner:
-  title: "Trung's Website"
-  content: "Learn everything about me from my professional career, extracurriculars, side projects, hobbies, and etc."
+  title: "Howdy, I'm Trung"
+  content: "Just a CS major that loves pandas"
   image: "/images/myimages/grad.jpg"
   button:
     - enable: true
       label: "Resume"
-      link: "https://drive.google.com/file/d/1mfl1RNWzr8LyEelfW1s2IhBGy0cKBz-M/view?usp=sharing"
+      link: "trung_resume.pdf"
     - enable: true
       label: "CV"
-      link: "https://drive.google.com/file/d/1kuP6RMTH01pOtsX_pHxEUGePWb7GI2Ln/view?usp=sharing"
+      link: "trung_cv.pdf"
 
 # Features
 features:
   - title: "About Me"
     image: "/images/myimages/grouposprey.JPG"
-    content: "Click the button to get a short overview of who I am!"
+    content: "Interested in me? I'm flattered"
     bulletpoints:
-      - "Cal Poly Pomona Grad Student"
-      - "Computer Science and Engineering B.S. @ UCLA"
+      - "Comp Sci M.S. @ Cal Poly Pomona"
+      - "UCLA Alumni"
       - "Current Involvements"
       - "Interests / Passions"
     button:
@@ -29,13 +29,12 @@ features:
 
   - title: "Professional Career"
     image: "/images/myimages/jpl.jpg"
-    content: "Click the button to learn more about my current and previous jobs!"
+    content: "Yes, mom, I got a job"
     bulletpoints:
-      - "3 Internships"
-      - "Undergraduate Research"
+      - "4 Industry Internships"
+      - "ML Research"
       - "Teaching Assistant"
-      - "Group Tutor"
-      - "Startup Accelerator"
+      - "Entrepreneur"
     button:
       enable: true
       label: "Experience"
@@ -43,12 +42,11 @@ features:
 
   - title: "Extracurriculars"
     image: "/images/myimages/trad.jpg"
-    content: "I'm heavily involved in the engineering space and Southeast Asian space at UCLA. Click the button to learn about all my involvements!"
+    content: "Guess what? I actually touch grass"
     bulletpoints:
       - "Upsilon Pi Epsilon (CS Honors Society)"
       - "Vietnamese Student Union / SEA CLEAR"
-      - "Vietnamese Culture Night"
-      - "Vietnamese Traditional Dance"
+      - "Intramural Sports"
     button:
       enable: true
       label: "Experience"
@@ -56,12 +54,12 @@ features:
 
   - title: "Awards and Honors"
     image: "/images/myimages/ibmLogo.png"
-    content: "Throughout my career, I've earned a variety of awards and honors. Click the button to learn more about them!"
+    content: "Surprise surprise...I did a few big things"
     bulletpoints:
-      - "MIT"
-      - "IBM"
+      - "MIT challenges"
+      - "IBM hackathons"
       - "NSF REU"
-      - "Upsilon Pi Epsilon"
+      - "UCLA Engineering Awards"
       - "Deans Honors List"
     button:
       enable: true
@@ -70,7 +68,7 @@ features:
 
   - title: "Side Projects"
     image: "/images/myimages/hardware.jpg"
-    content: "I love developing my skills by completing side projects. Click the button to learn about all my projects."
+    content: "So what? I like coding. Don't judge"
     bulletpoints:
       - "Building a personal website (this!)"
       - "PG version of Rice Purity"
@@ -84,7 +82,7 @@ features:
 
   - title: "Hobbies"
     image: "/images/myimages/valorant.png"
-    content: "I balance out my life by having a variety of hobbies unrelated to computer science and engineering. Click the button to learn more about my hobbies!"
+    content: "I promise I'm not like all the other boys"
     bulletpoints:
       - "Video Games"
       - "Cooking"
