@@ -7,10 +7,10 @@ banner:
   button:
     - enable: true
       label: "Resume"
-      link: "https://drive.google.com/file/d/1hFBRsKEvCNY86L-vLs4D1epCsxdLxhxg/view?usp=sharing"
+      link: "trung_resume.pdf"
     - enable: true
       label: "CV"
-      link: "https://drive.google.com/file/d/1tGrpACusZlIHryID2RGB0I_NUIFME2iy/view?usp=sharing"
+      link: "trung_cv.pdf"
 
 # Features
 features:
