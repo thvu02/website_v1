@@ -4,13 +4,6 @@ banner:
   title: "Howdy, I'm Trung"
   content: "Just a CS major that loves pandas"
   image: "/images/myimages/grad.jpg"
-  button:
-    - enable: true
-      label: "Resume"
-      link: "trung_resume.pdf"
-    - enable: true
-      label: "CV"
-      link: "trung_cv.pdf"
 
 # Features
 features:
